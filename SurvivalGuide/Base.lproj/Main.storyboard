@@ -21,52 +21,134 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sg_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ACI-LF-7bI">
                                 <rect key="frame" x="57" y="94" width="300" height="300"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="92" translatesAutoresizingMaskIntoConstraints="NO" id="mOK-MH-gZk" userLabel="FirstRow">
-                                <rect key="frame" x="40" y="514" width="334" height="50"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FLB-DG-MhD" userLabel="HistoryButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <state key="normal" image="book">
-                                            <attributedString key="attributedTitle"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfp-KQ-GOS" userLabel="CalendarButton">
-                                        <rect key="frame" x="142" y="0.0" width="50" height="50"/>
-                                        <state key="normal" backgroundImage="book"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chP-Mq-UAU" userLabel="MapButton">
-                                        <rect key="frame" x="284" y="0.0" width="50" height="50"/>
-                                        <state key="normal" backgroundImage="book"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="92" translatesAutoresizingMaskIntoConstraints="NO" id="yLd-5I-dxc" userLabel="SecondRow">
-                                <rect key="frame" x="40" y="664" width="334" height="50"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pN4-Im-7lr" userLabel="JargonsButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <size key="titleShadowOffset" width="0.0" height="10"/>
-                                        <state key="normal" backgroundImage="book"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7b-QR-iYX" userLabel="FaqButton">
-                                        <rect key="frame" x="142" y="0.0" width="50" height="50"/>
-                                        <state key="normal" backgroundImage="book"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXP-Ja-a3y" userLabel="TipsButton">
-                                        <rect key="frame" x="284" y="0.0" width="50" height="50"/>
-                                        <state key="normal" backgroundImage="book"/>
-                                    </button>
-                                </subviews>
-                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
-                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FLB-DG-MhD" userLabel="HistoryButton">
+                                <rect key="frame" x="50" y="436" width="94" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="94" id="BoK-np-d4c"/>
+                                    <constraint firstAttribute="height" constant="94" id="dC1-HS-a9c"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                                <state key="normal" backgroundImage="HistoryButton">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="History Of UPLB">
+                                            <attributes>
+                                                <font key="NSFont" size="11" name=".AppleSystemUIFont"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="135-oz-qye" userLabel="MapButton">
+                                <rect key="frame" x="270" y="437" width="94" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="ItM-0c-gtC"/>
+                                    <constraint firstAttribute="width" constant="94" id="vTp-On-4Jw"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                                <state key="normal" backgroundImage="MapButton">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Campus Map">
+                                            <attributes>
+                                                <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X78-2R-sm9" userLabel="CalendarButton">
+                                <rect key="frame" x="160" y="436" width="94" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="KC0-Ce-jfc"/>
+                                    <constraint firstAttribute="width" constant="94" id="sPY-eT-fp2"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                                <state key="normal" backgroundImage="CalendarButton">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="UPLB Calendar">
+                                            <attributes>
+                                                <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yxT-q4-rgZ" userLabel="JargonsButton">
+                                <rect key="frame" x="50" y="565" width="94" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="CJ4-ei-I5J"/>
+                                    <constraint firstAttribute="width" constant="94" id="nYi-Yb-uDP"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                                <state key="normal" backgroundImage="JargonsButton">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Campus Jargons">
+                                            <attributes>
+                                                <font key="NSFont" size="10" name=".AppleSystemUIFont"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GxH-0X-Oae" userLabel="FaqButton">
+                                <rect key="frame" x="160" y="565" width="94" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="94" id="ZOT-WT-A5g"/>
+                                    <constraint firstAttribute="height" constant="94" id="ffA-Zg-BMs"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="8"/>
+                                <state key="normal" backgroundImage="FaqButton">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="FAQ ">
+                                            <attributes>
+                                                <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGA-Jx-dQI" userLabel="TipsButton">
+                                <rect key="frame" x="270" y="566" width="94" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="dgr-EQ-9aw"/>
+                                    <constraint firstAttribute="width" constant="94" id="yAb-xq-Lv7"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="8"/>
+                                <state key="normal" backgroundImage="TipsButton">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Useful Tips">
+                                            <attributes>
+                                                <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="135-oz-qye" firstAttribute="top" secondItem="ACI-LF-7bI" secondAttribute="bottom" constant="43" id="05k-fG-eep"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GxH-0X-Oae" secondAttribute="bottom" constant="203" id="1P7-BK-5QN"/>
+                            <constraint firstItem="FLB-DG-MhD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="6cz-bT-y3R"/>
+                            <constraint firstItem="GxH-0X-Oae" firstAttribute="top" secondItem="X78-2R-sm9" secondAttribute="bottom" constant="35" id="8ts-bA-Kqk"/>
+                            <constraint firstItem="yxT-q4-rgZ" firstAttribute="top" secondItem="FLB-DG-MhD" secondAttribute="bottom" constant="35" id="Aai-EP-s2F"/>
+                            <constraint firstItem="GxH-0X-Oae" firstAttribute="leading" secondItem="yxT-q4-rgZ" secondAttribute="trailing" constant="16" id="L9H-y9-Cdg"/>
+                            <constraint firstItem="GxH-0X-Oae" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MM2-Ib-j1Q"/>
+                            <constraint firstItem="xGA-Jx-dQI" firstAttribute="top" secondItem="135-oz-qye" secondAttribute="bottom" constant="35" id="PtX-Fg-RK2"/>
                             <constraint firstItem="ACI-LF-7bI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YdC-sF-K5n"/>
+                            <constraint firstItem="yxT-q4-rgZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="c79-st-dWB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yxT-q4-rgZ" secondAttribute="bottom" constant="203" id="dKQ-tR-rW7"/>
                             <constraint firstItem="ACI-LF-7bI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="fw1-uc-u0e"/>
-                            <constraint firstItem="mOK-MH-gZk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hIu-g4-dG6"/>
-                            <constraint firstItem="yLd-5I-dxc" firstAttribute="top" secondItem="mOK-MH-gZk" secondAttribute="bottom" constant="100" id="jry-Tc-KuN"/>
-                            <constraint firstItem="mOK-MH-gZk" firstAttribute="top" secondItem="ACI-LF-7bI" secondAttribute="bottom" constant="120" id="onm-Ot-qPv"/>
+                            <constraint firstItem="xGA-Jx-dQI" firstAttribute="top" secondItem="135-oz-qye" secondAttribute="bottom" constant="35" id="hsB-oM-lfo"/>
+                            <constraint firstItem="yxT-q4-rgZ" firstAttribute="top" secondItem="FLB-DG-MhD" secondAttribute="bottom" constant="35" id="kN8-Jp-VDc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="135-oz-qye" secondAttribute="trailing" constant="50" id="n4K-x4-Jyl"/>
+                            <constraint firstItem="xGA-Jx-dQI" firstAttribute="leading" secondItem="GxH-0X-Oae" secondAttribute="trailing" constant="16" id="xeS-2d-VHI"/>
+                            <constraint firstItem="X78-2R-sm9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ych-US-SbE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -77,7 +159,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="book" width="50" height="50"/>
+        <image name="CalendarButton" width="300" height="300"/>
+        <image name="FaqButton" width="300" height="300"/>
+        <image name="HistoryButton" width="300" height="300"/>
+        <image name="JargonsButton" width="300" height="300"/>
+        <image name="MapButton" width="300" height="300"/>
+        <image name="TipsButton" width="300" height="300"/>
         <image name="sg_logo" width="300" height="300"/>
     </resources>
 </document>
