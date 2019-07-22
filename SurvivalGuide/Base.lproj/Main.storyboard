@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,139 +16,171 @@
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SurvivalGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sg_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ACI-LF-7bI">
-                                <rect key="frame" x="57" y="94" width="300" height="300"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background6" highlightedImage="Background" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="noJ-S5-dv6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FLB-DG-MhD" userLabel="HistoryButton">
-                                <rect key="frame" x="50" y="436" width="94" height="94"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="94" id="BoK-np-d4c"/>
-                                    <constraint firstAttribute="height" constant="94" id="dC1-HS-a9c"/>
-                                </constraints>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
-                                <state key="normal" backgroundImage="HistoryButton">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="History Of UPLB">
-                                            <attributes>
-                                                <font key="NSFont" size="11" name=".AppleSystemUIFont"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="135-oz-qye" userLabel="MapButton">
-                                <rect key="frame" x="270" y="437" width="94" height="94"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="94" id="ItM-0c-gtC"/>
-                                    <constraint firstAttribute="width" constant="94" id="vTp-On-4Jw"/>
-                                </constraints>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
-                                <state key="normal" backgroundImage="MapButton">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Campus Map">
-                                            <attributes>
-                                                <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X78-2R-sm9" userLabel="CalendarButton">
-                                <rect key="frame" x="160" y="436" width="94" height="94"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="94" id="KC0-Ce-jfc"/>
-                                    <constraint firstAttribute="width" constant="94" id="sPY-eT-fp2"/>
-                                </constraints>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
-                                <state key="normal" backgroundImage="CalendarButton">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="UPLB Calendar">
-                                            <attributes>
-                                                <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yxT-q4-rgZ" userLabel="JargonsButton">
-                                <rect key="frame" x="50" y="565" width="94" height="94"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="94" id="CJ4-ei-I5J"/>
-                                    <constraint firstAttribute="width" constant="94" id="nYi-Yb-uDP"/>
-                                </constraints>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
-                                <state key="normal" backgroundImage="JargonsButton">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Campus Jargons">
-                                            <attributes>
-                                                <font key="NSFont" size="10" name=".AppleSystemUIFont"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GxH-0X-Oae" userLabel="FaqButton">
-                                <rect key="frame" x="160" y="565" width="94" height="94"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="94" id="ZOT-WT-A5g"/>
-                                    <constraint firstAttribute="height" constant="94" id="ffA-Zg-BMs"/>
-                                </constraints>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="8"/>
-                                <state key="normal" backgroundImage="FaqButton">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="FAQ ">
-                                            <attributes>
-                                                <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGA-Jx-dQI" userLabel="TipsButton">
-                                <rect key="frame" x="270" y="566" width="94" height="94"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="94" id="dgr-EQ-9aw"/>
-                                    <constraint firstAttribute="width" constant="94" id="yAb-xq-Lv7"/>
-                                </constraints>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="8"/>
-                                <state key="normal" backgroundImage="TipsButton">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Useful Tips">
-                                            <attributes>
-                                                <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Qpy-MU-uMX">
+                                <rect key="frame" x="56" y="212" width="302" height="472"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sg_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ACI-LF-7bI">
+                                        <rect key="frame" x="26" y="0.0" width="250" height="250"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="QGW-yd-UtZ"/>
+                                            <constraint firstAttribute="width" constant="300" id="ful-bi-1Ma"/>
+                                            <constraint firstAttribute="width" constant="250" id="gjd-cF-3yx"/>
+                                            <constraint firstAttribute="height" constant="250" id="heq-TT-SSf"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="gjd-cF-3yx"/>
+                                                <exclude reference="heq-TT-SSf"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
+                                        <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="gjd-cF-3yx"/>
+                                                <include reference="heq-TT-SSf"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="c92-N7-fRX">
+                                        <rect key="frame" x="0.0" y="267" width="302" height="94"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JFt-gZ-SVn" userLabel="HistoryButton">
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="94"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="94" id="1hA-mK-BoP"/>
+                                                    <constraint firstAttribute="width" secondItem="JFt-gZ-SVn" secondAttribute="height" multiplier="1:1" id="FAD-pn-jQe"/>
+                                                    <constraint firstAttribute="height" constant="94" id="zSn-bj-E4e"/>
+                                                </constraints>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                                                <state key="normal" backgroundImage="HistoryButton">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="History Of UPLB">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name=".AppleSystemUIFont"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e9U-2X-hVF" userLabel="MapButton">
+                                                <rect key="frame" x="104" y="0.0" width="94" height="94"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="94" id="VYU-BQ-tui"/>
+                                                    <constraint firstAttribute="width" constant="94" id="WXe-cI-QJO"/>
+                                                </constraints>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                                                <state key="normal" backgroundImage="MapButton">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Campus Map">
+                                                            <attributes>
+                                                                <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z35-bc-K3A" userLabel="CalendarButton">
+                                                <rect key="frame" x="208" y="0.0" width="94" height="94"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="94" id="1kU-ra-d9h"/>
+                                                    <constraint firstAttribute="width" constant="94" id="jlc-zg-yfg"/>
+                                                </constraints>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                                                <state key="normal" backgroundImage="CalendarButton">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="UPLB Calendar">
+                                                            <attributes>
+                                                                <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xF0-Vu-Hnp">
+                                        <rect key="frame" x="0.0" y="378" width="302" height="94"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yxT-q4-rgZ" userLabel="JargonsButton">
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="94"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="94" id="CJ4-ei-I5J"/>
+                                                    <constraint firstAttribute="width" constant="94" id="nYi-Yb-uDP"/>
+                                                </constraints>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                                                <state key="normal" backgroundImage="JargonsButton">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Campus Jargons">
+                                                            <attributes>
+                                                                <font key="NSFont" size="10" name=".AppleSystemUIFont"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GxH-0X-Oae" userLabel="FaqButton">
+                                                <rect key="frame" x="104" y="0.0" width="94" height="94"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="94" id="ZOT-WT-A5g"/>
+                                                    <constraint firstAttribute="height" constant="94" id="ffA-Zg-BMs"/>
+                                                </constraints>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="8"/>
+                                                <state key="normal" backgroundImage="FaqButton">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="FAQ ">
+                                                            <attributes>
+                                                                <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGA-Jx-dQI" userLabel="TipsButton">
+                                                <rect key="frame" x="208" y="0.0" width="94" height="94"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="94" id="dgr-EQ-9aw"/>
+                                                    <constraint firstAttribute="width" constant="94" id="yAb-xq-Lv7"/>
+                                                </constraints>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="8"/>
+                                                <state key="normal" backgroundImage="TipsButton">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Useful Tips">
+                                                            <attributes>
+                                                                <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="15" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <variation key="heightClass=regular-widthClass=compact" spacing="17"/>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="135-oz-qye" firstAttribute="top" secondItem="ACI-LF-7bI" secondAttribute="bottom" constant="43" id="05k-fG-eep"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GxH-0X-Oae" secondAttribute="bottom" constant="203" id="1P7-BK-5QN"/>
-                            <constraint firstItem="FLB-DG-MhD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="6cz-bT-y3R"/>
-                            <constraint firstItem="GxH-0X-Oae" firstAttribute="top" secondItem="X78-2R-sm9" secondAttribute="bottom" constant="35" id="8ts-bA-Kqk"/>
-                            <constraint firstItem="yxT-q4-rgZ" firstAttribute="top" secondItem="FLB-DG-MhD" secondAttribute="bottom" constant="35" id="Aai-EP-s2F"/>
-                            <constraint firstItem="GxH-0X-Oae" firstAttribute="leading" secondItem="yxT-q4-rgZ" secondAttribute="trailing" constant="16" id="L9H-y9-Cdg"/>
-                            <constraint firstItem="GxH-0X-Oae" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MM2-Ib-j1Q"/>
-                            <constraint firstItem="xGA-Jx-dQI" firstAttribute="top" secondItem="135-oz-qye" secondAttribute="bottom" constant="35" id="PtX-Fg-RK2"/>
-                            <constraint firstItem="ACI-LF-7bI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YdC-sF-K5n"/>
-                            <constraint firstItem="yxT-q4-rgZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="c79-st-dWB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yxT-q4-rgZ" secondAttribute="bottom" constant="203" id="dKQ-tR-rW7"/>
-                            <constraint firstItem="ACI-LF-7bI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="fw1-uc-u0e"/>
-                            <constraint firstItem="xGA-Jx-dQI" firstAttribute="top" secondItem="135-oz-qye" secondAttribute="bottom" constant="35" id="hsB-oM-lfo"/>
-                            <constraint firstItem="yxT-q4-rgZ" firstAttribute="top" secondItem="FLB-DG-MhD" secondAttribute="bottom" constant="35" id="kN8-Jp-VDc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="135-oz-qye" secondAttribute="trailing" constant="50" id="n4K-x4-Jyl"/>
-                            <constraint firstItem="xGA-Jx-dQI" firstAttribute="leading" secondItem="GxH-0X-Oae" secondAttribute="trailing" constant="16" id="xeS-2d-VHI"/>
-                            <constraint firstItem="X78-2R-sm9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ych-US-SbE"/>
+                            <constraint firstItem="noJ-S5-dv6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7L5-Ra-fCj"/>
+                            <constraint firstItem="noJ-S5-dv6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8bM-vr-Vir"/>
+                            <constraint firstAttribute="bottom" secondItem="noJ-S5-dv6" secondAttribute="bottom" id="BMj-8W-PDq"/>
+                            <constraint firstItem="noJ-S5-dv6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NbW-Vt-P05"/>
+                            <constraint firstItem="noJ-S5-dv6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Pol-b6-WrM"/>
+                            <constraint firstAttribute="trailing" secondItem="noJ-S5-dv6" secondAttribute="trailing" id="PpP-EL-2eH"/>
+                            <constraint firstItem="Qpy-MU-uMX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wmi-sF-lc4"/>
+                            <constraint firstItem="Qpy-MU-uMX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cSL-Gd-QtJ"/>
+                            <constraint firstAttribute="bottomMargin" relation="lessThanOrEqual" secondItem="noJ-S5-dv6" secondAttribute="bottom" id="nk8-B8-T8n"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -159,12 +191,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Background" width="1212" height="712"/>
         <image name="CalendarButton" width="300" height="300"/>
         <image name="FaqButton" width="300" height="300"/>
         <image name="HistoryButton" width="300" height="300"/>
         <image name="JargonsButton" width="300" height="300"/>
         <image name="MapButton" width="300" height="300"/>
         <image name="TipsButton" width="300" height="300"/>
+        <image name="background6" width="2212" height="1266"/>
         <image name="sg_logo" width="300" height="300"/>
     </resources>
 </document>
