@@ -9,12 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    
+    @IBOutlet weak var mapButtonView: UIButton!
+    @IBOutlet weak var calendarButtonView: UIButton!
+    @IBOutlet weak var jargonsButtonView: UIButton!
+    @IBOutlet weak var faqButtonView: UIButton!
+    @IBOutlet weak var tipsButtonView: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    
+        
     }
 
 
+    @IBAction func historyClicked(_ sender: Any) {
+        print("history button clicked")
+    }
 }
 
