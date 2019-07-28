@@ -14,7 +14,6 @@
 		6887EFB422D2308200B8B536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6887EFB222D2308200B8B536 /* LaunchScreen.storyboard */; };
 		6887EFBF22D2308300B8B536 /* SurvivalGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887EFBE22D2308300B8B536 /* SurvivalGuideTests.swift */; };
 		6887EFCA22D2308300B8B536 /* SurvivalGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887EFC922D2308300B8B536 /* SurvivalGuideUITests.swift */; };
-		6899618122E9F96400FCF63A /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6899618022E9F96400FCF63A /* History.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		6887EFC522D2308300B8B536 /* SurvivalGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurvivalGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6887EFC922D2308300B8B536 /* SurvivalGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvivalGuideUITests.swift; sourceTree = "<group>"; };
 		6887EFCB22D2308300B8B536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6899618022E9F96400FCF63A /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +100,6 @@
 				6887EFA922D2308000B8B536 /* AppDelegate.swift */,
 				6887EFAB22D2308000B8B536 /* ViewController.swift */,
 				6887EFAD22D2308000B8B536 /* Main.storyboard */,
-				6899618022E9F96400FCF63A /* History.storyboard */,
 				6887EFB022D2308200B8B536 /* Assets.xcassets */,
 				6887EFB222D2308200B8B536 /* LaunchScreen.storyboard */,
 				6887EFB522D2308200B8B536 /* Info.plist */,
@@ -235,7 +232,6 @@
 				6887EFB422D2308200B8B536 /* LaunchScreen.storyboard in Resources */,
 				6887EFB122D2308200B8B536 /* Assets.xcassets in Resources */,
 				6887EFAF22D2308000B8B536 /* Main.storyboard in Resources */,
-				6899618122E9F96400FCF63A /* History.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
