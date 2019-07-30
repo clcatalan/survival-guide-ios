@@ -206,24 +206,11 @@
             <objects>
                 <viewController id="H1c-Tv-i6E" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bXA-O4-qZl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CX-MS-4PC">
-                                <rect key="frame" x="103" y="64" width="208" height="36"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="History Of UPLB">
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="27" name="AvenirNext-DemiBold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1oO-KI-44G">
-                                <rect key="frame" x="20" y="316" width="374" height="182"/>
+                                <rect key="frame" x="20" y="1420" width="374" height="182"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="182" id="a6F-6g-7gD"/>
                                 </constraints>
@@ -232,18 +219,10 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uplb_logo" translatesAutoresizingMaskIntoConstraints="NO" id="7cV-EN-jhk">
-                                <rect key="frame" x="107" y="120" width="200" height="172"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Jd-LF-1k4">
+                                <rect key="frame" x="20" y="1633" width="374" height="182"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="172" id="2Ug-TY-0m6"/>
-                                    <constraint firstAttribute="height" constant="172" id="8LJ-rd-h7M"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="DTX-Uz-d3c"/>
-                                    <constraint firstAttribute="width" constant="200" id="hWC-AI-wNE"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Jd-LF-1k4">
-                                <rect key="frame" x="20" y="529" width="374" height="182"/>
-                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="fyu-31-CwE"/>
                                     <constraint firstAttribute="height" constant="182" id="vTJ-Dp-s4X"/>
                                 </constraints>
                                 <string key="text">UPCA started with only four departments: Agricultural Botany, Animal Husbandry, Entomology, and English; and only had four American teachers together with American Botanist DR. Edwin Copeland, who was the first dean of the college, as its faculty.</string>
@@ -251,25 +230,71 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w72-mI-Xjt">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1956"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mvx-FG-Jfn" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CX-MS-4PC">
+                                                <rect key="frame" x="106.33333333333333" y="0.0" width="201.66666666666669" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="ViL-VW-BQ7"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="History Of UPLB">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="27" name="AvenirNext-DemiBold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uplb_logo" translatesAutoresizingMaskIntoConstraints="NO" id="7cV-EN-jhk">
+                                                <rect key="frame" x="57" y="1828" width="300" height="172"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="172" id="8LJ-rd-h7M"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.43794719510000002" green="0.1700224887" blue="0.14882654619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="4CX-MS-4PC" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="DxV-4g-Zgl"/>
+                                            <constraint firstItem="7cV-EN-jhk" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="JmU-J3-Ql4"/>
+                                            <constraint firstAttribute="bottom" secondItem="7cV-EN-jhk" secondAttribute="bottom" id="T7n-Qb-uZj"/>
+                                            <constraint firstAttribute="height" constant="2000" id="wtR-pS-0hR"/>
+                                            <constraint firstItem="4CX-MS-4PC" firstAttribute="top" secondItem="mvx-FG-Jfn" secondAttribute="top" id="wvX-cL-jMO"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="mvx-FG-Jfn" firstAttribute="leading" secondItem="w72-mI-Xjt" secondAttribute="leading" id="Eza-xM-k73"/>
+                                    <constraint firstItem="mvx-FG-Jfn" firstAttribute="top" secondItem="w72-mI-Xjt" secondAttribute="top" id="XQV-jS-Hdn"/>
+                                    <constraint firstAttribute="trailing" secondItem="mvx-FG-Jfn" secondAttribute="trailing" id="rSh-f5-AWe"/>
+                                    <constraint firstAttribute="bottom" secondItem="mvx-FG-Jfn" secondAttribute="bottom" id="xXM-Gx-srs"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.4379471951198084" green="0.17002248867279943" blue="0.14882654623101763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="cgF-bl-q5r" firstAttribute="bottom" secondItem="4CX-MS-4PC" secondAttribute="bottom" constant="762" id="09l-ry-hMw"/>
-                            <constraint firstItem="4CX-MS-4PC" firstAttribute="top" secondItem="cgF-bl-q5r" secondAttribute="top" constant="20" id="1MF-sJ-usy"/>
-                            <constraint firstItem="7cV-EN-jhk" firstAttribute="top" secondItem="4CX-MS-4PC" secondAttribute="bottom" constant="20" id="27j-7c-ExZ"/>
-                            <constraint firstItem="4CX-MS-4PC" firstAttribute="centerX" secondItem="bXA-O4-qZl" secondAttribute="centerX" id="2sg-SY-Q6S"/>
+                            <constraint firstItem="w72-mI-Xjt" firstAttribute="trailing" secondItem="cgF-bl-q5r" secondAttribute="trailing" id="1BD-Zf-OZK"/>
                             <constraint firstItem="cgF-bl-q5r" firstAttribute="trailing" secondItem="1oO-KI-44G" secondAttribute="trailing" constant="20" id="4zx-25-6cX"/>
-                            <constraint firstItem="1oO-KI-44G" firstAttribute="top" secondItem="7cV-EN-jhk" secondAttribute="bottom" constant="24" id="Dtc-e1-uBQ"/>
-                            <constraint firstItem="4CX-MS-4PC" firstAttribute="leading" secondItem="cgF-bl-q5r" secondAttribute="leading" constant="103" id="Hgd-xj-3nh"/>
-                            <constraint firstItem="7cV-EN-jhk" firstAttribute="centerX" secondItem="bXA-O4-qZl" secondAttribute="centerX" id="KC4-qC-qA6"/>
+                            <constraint firstItem="w72-mI-Xjt" firstAttribute="top" secondItem="cgF-bl-q5r" secondAttribute="top" id="EgA-X7-yu5"/>
+                            <constraint firstItem="mvx-FG-Jfn" firstAttribute="width" secondItem="bXA-O4-qZl" secondAttribute="width" id="MWc-NP-Cv1"/>
                             <constraint firstItem="1oO-KI-44G" firstAttribute="centerX" secondItem="bXA-O4-qZl" secondAttribute="centerX" id="O86-sC-2a8"/>
-                            <constraint firstItem="cgF-bl-q5r" firstAttribute="trailing" secondItem="4CX-MS-4PC" secondAttribute="trailing" constant="103" id="XDu-YI-Oc6"/>
+                            <constraint firstItem="6Jd-LF-1k4" firstAttribute="top" secondItem="1oO-KI-44G" secondAttribute="bottom" constant="31" id="SNO-bS-vVj"/>
+                            <constraint firstItem="cgF-bl-q5r" firstAttribute="trailing" secondItem="6Jd-LF-1k4" secondAttribute="trailing" constant="20" id="Zrm-Vt-tk9"/>
                             <constraint firstItem="1oO-KI-44G" firstAttribute="leading" secondItem="cgF-bl-q5r" secondAttribute="leading" constant="20" id="cMg-NR-s6X"/>
-                            <constraint firstItem="cgF-bl-q5r" firstAttribute="trailing" secondItem="7cV-EN-jhk" secondAttribute="trailing" constant="107" id="wzN-Vv-jEk"/>
-                            <constraint firstItem="7cV-EN-jhk" firstAttribute="leading" secondItem="cgF-bl-q5r" secondAttribute="leading" constant="107" id="yXA-lz-oCc"/>
+                            <constraint firstItem="w72-mI-Xjt" firstAttribute="leading" secondItem="cgF-bl-q5r" secondAttribute="leading" id="nfQ-DE-tjV"/>
+                            <constraint firstItem="cgF-bl-q5r" firstAttribute="bottom" secondItem="6Jd-LF-1k4" secondAttribute="bottom" constant="151" id="vHg-oI-CQ5"/>
+                            <constraint firstAttribute="bottom" secondItem="w72-mI-Xjt" secondAttribute="bottom" id="vlC-pV-Rxw"/>
+                            <constraint firstItem="6Jd-LF-1k4" firstAttribute="leading" secondItem="cgF-bl-q5r" secondAttribute="leading" constant="20" id="wjd-8C-blD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cgF-bl-q5r"/>
                     </view>
+                    <size key="freeformSize" width="414" height="2000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cs7-gp-2u9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
