@@ -90,6 +90,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="0tc-QT-pwE" kind="show" id="Mok-Kc-JgB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z35-bc-K3A" userLabel="CalendarButton">
                                                 <rect key="frame" x="208" y="0.0" width="94" height="94"/>
@@ -108,6 +111,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="Q5A-bD-lOZ" kind="show" id="fQA-Uc-rko"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -131,6 +137,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="fwy-ld-lJy" kind="show" id="eYS-0O-UT0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GxH-0X-Oae" userLabel="FaqButton">
                                                 <rect key="frame" x="104" y="0.0" width="94" height="94"/>
@@ -149,6 +158,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="b7U-WV-qad" kind="show" id="8SU-n9-761"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGA-Jx-dQI" userLabel="TipsButton">
                                                 <rect key="frame" x="208" y="0.0" width="94" height="94"/>
@@ -167,6 +179,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="qjZ-79-9ry" kind="show" id="hNK-IA-l8O"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -209,27 +224,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1oO-KI-44G">
-                                <rect key="frame" x="20" y="1420" width="374" height="182"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="182" id="a6F-6g-7gD"/>
-                                </constraints>
-                                <string key="text">University of the Philippines, more commonly known as UPLB was established on March 6, 1909 as the University of the Philippines College of Agriculture (UPCA) by the UP Board Of Regents as a way to promote agricultural research and education.</string>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Jd-LF-1k4">
-                                <rect key="frame" x="20" y="1633" width="374" height="182"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="374" id="fyu-31-CwE"/>
-                                    <constraint firstAttribute="height" constant="182" id="vTJ-Dp-s4X"/>
-                                </constraints>
-                                <string key="text">UPCA started with only four departments: Agricultural Botany, Animal Husbandry, Entomology, and English; and only had four American teachers together with American Botanist DR. Edwin Copeland, who was the first dean of the college, as its faculty.</string>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w72-mI-Xjt">
                                 <rect key="frame" x="0.0" y="44" width="414" height="1956"/>
                                 <subviews>
@@ -253,17 +247,100 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uplb_logo" translatesAutoresizingMaskIntoConstraints="NO" id="7cV-EN-jhk">
-                                                <rect key="frame" x="57" y="1828" width="300" height="172"/>
+                                                <rect key="frame" x="57" y="70" width="300" height="172"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="172" id="8LJ-rd-h7M"/>
                                                 </constraints>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1oO-KI-44G">
+                                                <rect key="frame" x="20" y="252" width="374" height="182"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="374" id="2Kz-or-OAF"/>
+                                                    <constraint firstAttribute="height" constant="182" id="a6F-6g-7gD"/>
+                                                </constraints>
+                                                <string key="text">University of the Philippines, more commonly known as UPLB was established on March 6, 1909 as the University of the Philippines College of Agriculture (UPCA) by the UP Board Of Regents as a way to promote agricultural research and education.</string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="copeland" translatesAutoresizingMaskIntoConstraints="NO" id="saP-bR-QNc">
+                                                <rect key="frame" x="101" y="444" width="212" height="206"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="212" id="9Eu-4n-jVt"/>
+                                                    <constraint firstAttribute="height" constant="206" id="bxe-KJ-5yY"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Jd-LF-1k4">
+                                                <rect key="frame" x="20" y="660" width="374" height="182"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="182" id="dKk-fj-icG"/>
+                                                    <constraint firstAttribute="width" constant="374" id="fyu-31-CwE"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="lrn-SG-jY0"/>
+                                                    <constraint firstAttribute="height" constant="182" id="vTJ-Dp-s4X"/>
+                                                </constraints>
+                                                <string key="text">UPCA started with only four departments: Agricultural Botany, Animal Husbandry, Entomology, and English; and only had four American teachers together with American Botanist DR. Edwin Copeland, who was the first dean of the college, as its faculty.</string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baker-hall" translatesAutoresizingMaskIntoConstraints="NO" id="WvH-FA-igl">
+                                                <rect key="frame" x="57" y="852" width="300" height="194"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38f-XC-MVn">
+                                                <rect key="frame" x="20" y="1056" width="374" height="230"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="230" id="8TT-NE-kuV"/>
+                                                    <constraint firstAttribute="width" constant="374" id="zwu-xV-QbF"/>
+                                                </constraints>
+                                                <string key="text">The college had its fair share of World War II accounts as it was converted to a Japanese military base, an internment camp for the Allied nations, and a the headquarters for a local guerilla group. This was one of the worst times for the university since research and classes were interrupted.</string>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uplb-front" translatesAutoresizingMaskIntoConstraints="NO" id="Hnn-it-cd2">
+                                                <rect key="frame" x="32" y="1286" width="350" height="250"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="bRb-2P-m1b"/>
+                                                    <constraint firstAttribute="height" constant="250" id="rPh-gX-4jl"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4e-aw-Mey">
+                                                <rect key="frame" x="20" y="1536" width="374" height="386"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="386" id="cUP-mO-lOt"/>
+                                                    <constraint firstAttribute="width" constant="374" id="iVE-oJ-xwL"/>
+                                                </constraints>
+                                                <mutableString key="text">On November 20, 1972 by Presidential Decree No. 58 UPCA was formally established as University of the Philippines Los Banos, UP’s first Autonomous Campus in the UP system, and is now considered as one of the top research universities in the country by having 9 courses accredited by the Commission on Higher Education as Centers of Excellence, namely;  Agriculture, Agricultural Engineering, Biology, Forestry, Information Technology, Environmental Science, Development Communication, Statistics, and Veterinary Medicine.</mutableString>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.43794719510000002" green="0.1700224887" blue="0.14882654619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="1oO-KI-44G" firstAttribute="leading" secondItem="mvx-FG-Jfn" secondAttribute="leading" constant="20" id="05j-2v-xIZ"/>
+                                            <constraint firstItem="WvH-FA-igl" firstAttribute="top" secondItem="6Jd-LF-1k4" secondAttribute="bottom" constant="10" id="2P9-QQ-qiA"/>
+                                            <constraint firstItem="L4e-aw-Mey" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="4YZ-AX-eRF"/>
                                             <constraint firstItem="4CX-MS-4PC" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="DxV-4g-Zgl"/>
+                                            <constraint firstItem="saP-bR-QNc" firstAttribute="top" secondItem="1oO-KI-44G" secondAttribute="bottom" constant="10" id="FvF-Qy-Cxt"/>
+                                            <constraint firstAttribute="trailing" secondItem="saP-bR-QNc" secondAttribute="trailing" constant="101" id="GkF-xE-whj"/>
+                                            <constraint firstItem="7cV-EN-jhk" firstAttribute="top" secondItem="4CX-MS-4PC" secondAttribute="bottom" constant="20" id="Hy1-15-AvE"/>
+                                            <constraint firstItem="WvH-FA-igl" firstAttribute="leading" secondItem="mvx-FG-Jfn" secondAttribute="leading" constant="57" id="JhB-mM-al1"/>
                                             <constraint firstItem="7cV-EN-jhk" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="JmU-J3-Ql4"/>
-                                            <constraint firstAttribute="bottom" secondItem="7cV-EN-jhk" secondAttribute="bottom" id="T7n-Qb-uZj"/>
+                                            <constraint firstItem="38f-XC-MVn" firstAttribute="top" secondItem="WvH-FA-igl" secondAttribute="bottom" constant="10" id="LKk-fA-IQZ"/>
+                                            <constraint firstItem="WvH-FA-igl" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="Ljc-c0-vhe"/>
+                                            <constraint firstAttribute="trailing" secondItem="1oO-KI-44G" secondAttribute="trailing" constant="20" id="NKG-zp-yvV"/>
+                                            <constraint firstItem="38f-XC-MVn" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="VTj-bi-sj0"/>
+                                            <constraint firstAttribute="trailing" secondItem="WvH-FA-igl" secondAttribute="trailing" constant="57" id="VrO-hz-VdS"/>
+                                            <constraint firstItem="L4e-aw-Mey" firstAttribute="top" secondItem="Hnn-it-cd2" secondAttribute="bottom" id="W1W-eF-7M2"/>
+                                            <constraint firstItem="6Jd-LF-1k4" firstAttribute="leading" secondItem="mvx-FG-Jfn" secondAttribute="leading" constant="20" id="WP8-gN-oPX"/>
+                                            <constraint firstItem="6Jd-LF-1k4" firstAttribute="top" secondItem="saP-bR-QNc" secondAttribute="bottom" constant="10" id="kt4-49-SwF"/>
+                                            <constraint firstItem="saP-bR-QNc" firstAttribute="leading" secondItem="mvx-FG-Jfn" secondAttribute="leading" constant="101" id="ktU-dR-Caq"/>
+                                            <constraint firstItem="saP-bR-QNc" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="lQc-hB-u5J"/>
+                                            <constraint firstItem="Hnn-it-cd2" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="mKx-SC-Zfn"/>
+                                            <constraint firstAttribute="trailing" secondItem="6Jd-LF-1k4" secondAttribute="trailing" constant="20" id="nlJ-5v-Mgk"/>
+                                            <constraint firstItem="Hnn-it-cd2" firstAttribute="top" secondItem="38f-XC-MVn" secondAttribute="bottom" id="qmW-UN-Zd6"/>
+                                            <constraint firstItem="1oO-KI-44G" firstAttribute="top" secondItem="7cV-EN-jhk" secondAttribute="bottom" constant="10" id="uy1-m2-LDm"/>
                                             <constraint firstAttribute="height" constant="2000" id="wtR-pS-0hR"/>
                                             <constraint firstItem="4CX-MS-4PC" firstAttribute="top" secondItem="mvx-FG-Jfn" secondAttribute="top" id="wvX-cL-jMO"/>
                                         </constraints>
@@ -280,17 +357,10 @@
                         <color key="backgroundColor" red="0.4379471951198084" green="0.17002248867279943" blue="0.14882654623101763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="w72-mI-Xjt" firstAttribute="trailing" secondItem="cgF-bl-q5r" secondAttribute="trailing" id="1BD-Zf-OZK"/>
-                            <constraint firstItem="cgF-bl-q5r" firstAttribute="trailing" secondItem="1oO-KI-44G" secondAttribute="trailing" constant="20" id="4zx-25-6cX"/>
                             <constraint firstItem="w72-mI-Xjt" firstAttribute="top" secondItem="cgF-bl-q5r" secondAttribute="top" id="EgA-X7-yu5"/>
                             <constraint firstItem="mvx-FG-Jfn" firstAttribute="width" secondItem="bXA-O4-qZl" secondAttribute="width" id="MWc-NP-Cv1"/>
-                            <constraint firstItem="1oO-KI-44G" firstAttribute="centerX" secondItem="bXA-O4-qZl" secondAttribute="centerX" id="O86-sC-2a8"/>
-                            <constraint firstItem="6Jd-LF-1k4" firstAttribute="top" secondItem="1oO-KI-44G" secondAttribute="bottom" constant="31" id="SNO-bS-vVj"/>
-                            <constraint firstItem="cgF-bl-q5r" firstAttribute="trailing" secondItem="6Jd-LF-1k4" secondAttribute="trailing" constant="20" id="Zrm-Vt-tk9"/>
-                            <constraint firstItem="1oO-KI-44G" firstAttribute="leading" secondItem="cgF-bl-q5r" secondAttribute="leading" constant="20" id="cMg-NR-s6X"/>
                             <constraint firstItem="w72-mI-Xjt" firstAttribute="leading" secondItem="cgF-bl-q5r" secondAttribute="leading" id="nfQ-DE-tjV"/>
-                            <constraint firstItem="cgF-bl-q5r" firstAttribute="bottom" secondItem="6Jd-LF-1k4" secondAttribute="bottom" constant="151" id="vHg-oI-CQ5"/>
                             <constraint firstAttribute="bottom" secondItem="w72-mI-Xjt" secondAttribute="bottom" id="vlC-pV-Rxw"/>
-                            <constraint firstItem="6Jd-LF-1k4" firstAttribute="leading" secondItem="cgF-bl-q5r" secondAttribute="leading" constant="20" id="wjd-8C-blD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cgF-bl-q5r"/>
                     </view>
@@ -298,7 +368,308 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cs7-gp-2u9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2902.898550724638" y="141.96428571428569"/>
+            <point key="canvasLocation" x="381" y="183"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sAz-0h-Rg7">
+            <objects>
+                <viewController id="qjZ-79-9ry" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q7c-z6-aBt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nBK-he-MRc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pFm-xw-cIa" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prJ-Mn-QvD">
+                                                <rect key="frame" x="32.666666666666657" y="60" width="349" height="33"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Tips and Additional Information">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="24" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.43794719510000002" green="0.1700224887" blue="0.14882654619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="prJ-Mn-QvD" firstAttribute="centerX" secondItem="pFm-xw-cIa" secondAttribute="centerX" id="Dr4-yi-mvM"/>
+                                            <constraint firstAttribute="height" constant="2000" id="KTd-lI-QC8"/>
+                                            <constraint firstItem="prJ-Mn-QvD" firstAttribute="top" secondItem="pFm-xw-cIa" secondAttribute="top" constant="60" id="O4J-Nv-t6x"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pFm-xw-cIa" firstAttribute="top" secondItem="nBK-he-MRc" secondAttribute="top" id="9JC-g3-GoY"/>
+                                    <constraint firstItem="pFm-xw-cIa" firstAttribute="centerY" secondItem="nBK-he-MRc" secondAttribute="centerY" id="9nd-b7-V1q"/>
+                                    <constraint firstAttribute="trailing" secondItem="pFm-xw-cIa" secondAttribute="trailing" id="A1t-aA-zIr"/>
+                                    <constraint firstItem="pFm-xw-cIa" firstAttribute="leading" secondItem="nBK-he-MRc" secondAttribute="leading" id="fgK-DV-CF3"/>
+                                    <constraint firstAttribute="bottom" secondItem="pFm-xw-cIa" secondAttribute="bottom" id="rp8-Wt-O8W"/>
+                                    <constraint firstItem="pFm-xw-cIa" firstAttribute="centerX" secondItem="nBK-he-MRc" secondAttribute="centerX" id="vrI-Yh-LKR"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43794719510000002" green="0.1700224887" blue="0.14882654619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="nBK-he-MRc" secondAttribute="bottom" id="d2P-bs-Anm"/>
+                            <constraint firstItem="nBK-he-MRc" firstAttribute="leading" secondItem="bKg-wl-tOJ" secondAttribute="leading" id="dU1-Yt-CyE"/>
+                            <constraint firstItem="pFm-xw-cIa" firstAttribute="width" secondItem="q7c-z6-aBt" secondAttribute="width" id="rQz-x8-FKZ"/>
+                            <constraint firstItem="nBK-he-MRc" firstAttribute="top" secondItem="q7c-z6-aBt" secondAttribute="top" id="tgA-DY-fQ5"/>
+                            <constraint firstItem="nBK-he-MRc" firstAttribute="trailing" secondItem="bKg-wl-tOJ" secondAttribute="trailing" id="xib-gE-jDk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bKg-wl-tOJ"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="2000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="onG-Ju-R2y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2903" y="1649"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MWE-3N-zjg">
+            <objects>
+                <viewController id="fwy-ld-lJy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wxb-Ui-yf2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0zp-em-Qmu">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1456"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5F7-UW-2IK" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1u-lu-vdY">
+                                                <rect key="frame" x="103.66666666666669" y="60" width="207" height="37"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Campus Jargons">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="27" name="AvenirNext-Medium"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.43794719510000002" green="0.1700224887" blue="0.14882654619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="LMW-XQ-Nu6"/>
+                                            <constraint firstItem="O1u-lu-vdY" firstAttribute="top" secondItem="5F7-UW-2IK" secondAttribute="top" constant="60" id="TmZ-Qg-OiZ"/>
+                                            <constraint firstItem="O1u-lu-vdY" firstAttribute="centerX" secondItem="5F7-UW-2IK" secondAttribute="centerX" id="awb-6R-PEG"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="5F7-UW-2IK" secondAttribute="bottom" id="1Ud-Uz-pRF"/>
+                                    <constraint firstAttribute="trailing" secondItem="5F7-UW-2IK" secondAttribute="trailing" id="3wk-cw-FGM"/>
+                                    <constraint firstItem="5F7-UW-2IK" firstAttribute="leading" secondItem="0zp-em-Qmu" secondAttribute="leading" id="S4F-cq-v2d"/>
+                                    <constraint firstItem="5F7-UW-2IK" firstAttribute="top" secondItem="0zp-em-Qmu" secondAttribute="top" id="asp-DN-FCl"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43794719510000002" green="0.1700224887" blue="0.14882654619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0zp-em-Qmu" firstAttribute="trailing" secondItem="J1v-UX-Eyp" secondAttribute="trailing" id="0vO-MA-ed0"/>
+                            <constraint firstItem="0zp-em-Qmu" firstAttribute="top" secondItem="J1v-UX-Eyp" secondAttribute="top" id="6Cw-LQ-4jj"/>
+                            <constraint firstItem="0zp-em-Qmu" firstAttribute="leading" secondItem="J1v-UX-Eyp" secondAttribute="leading" id="8PN-c6-jbO"/>
+                            <constraint firstAttribute="bottom" secondItem="0zp-em-Qmu" secondAttribute="bottom" id="ATY-Ng-T0a"/>
+                            <constraint firstItem="5F7-UW-2IK" firstAttribute="width" secondItem="Wxb-Ui-yf2" secondAttribute="width" id="JVp-R6-ug4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="J1v-UX-Eyp"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jp1-k3-AEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="993" y="1482"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="U2w-lN-8TA">
+            <objects>
+                <viewController id="b7U-WV-qad" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7MU-Tx-SN2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8aO-aX-hXF">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1456"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="REQ-Qv-dsx" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhn-OG-msZ">
+                                                <rect key="frame" x="32.333333333333343" y="60" width="349.33333333333326" height="37"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Frequently Asked Questions">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="27" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.43794719510000002" green="0.1700224887" blue="0.14882654619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="hhn-OG-msZ" firstAttribute="centerX" secondItem="REQ-Qv-dsx" secondAttribute="centerX" id="Fxi-vJ-gns"/>
+                                            <constraint firstItem="hhn-OG-msZ" firstAttribute="top" secondItem="REQ-Qv-dsx" secondAttribute="top" constant="60" id="G62-Gb-cWJ"/>
+                                            <constraint firstAttribute="height" constant="1500" id="nWa-Pw-BTq"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="REQ-Qv-dsx" firstAttribute="leading" secondItem="8aO-aX-hXF" secondAttribute="leading" id="HD3-Hn-ZqE"/>
+                                    <constraint firstAttribute="trailing" secondItem="REQ-Qv-dsx" secondAttribute="trailing" id="SYM-FZ-gxr"/>
+                                    <constraint firstItem="REQ-Qv-dsx" firstAttribute="top" secondItem="8aO-aX-hXF" secondAttribute="top" id="m6x-5U-EXr"/>
+                                    <constraint firstAttribute="bottom" secondItem="REQ-Qv-dsx" secondAttribute="bottom" id="sXY-sR-and"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43794719510000002" green="0.1700224887" blue="0.14882654619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8aO-aX-hXF" firstAttribute="top" secondItem="3qb-i4-EiL" secondAttribute="top" id="1AT-6K-RDu"/>
+                            <constraint firstItem="REQ-Qv-dsx" firstAttribute="width" secondItem="7MU-Tx-SN2" secondAttribute="width" id="Bos-a6-ApY"/>
+                            <constraint firstAttribute="bottom" secondItem="8aO-aX-hXF" secondAttribute="bottom" id="gzE-TQ-QIL"/>
+                            <constraint firstItem="8aO-aX-hXF" firstAttribute="trailing" secondItem="3qb-i4-EiL" secondAttribute="trailing" id="l8m-08-K0d"/>
+                            <constraint firstItem="8aO-aX-hXF" firstAttribute="leading" secondItem="3qb-i4-EiL" secondAttribute="leading" id="y8L-Xj-rXh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3qb-i4-EiL"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NOW-Ff-Z5M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1951" y="1481"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="joz-pb-5j5">
+            <objects>
+                <viewController id="0tc-QT-pwE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TR5-JG-qHg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eJy-xI-Cgu">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1456"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="deA-h8-05g" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Q9-p0-YQh">
+                                                <rect key="frame" x="124.66666666666669" y="60" width="165" height="37"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Campus Map">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="27" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.43794719510000002" green="0.1700224887" blue="0.14882654619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="9Q9-p0-YQh" firstAttribute="centerX" secondItem="deA-h8-05g" secondAttribute="centerX" id="Lgz-nP-h24"/>
+                                            <constraint firstItem="9Q9-p0-YQh" firstAttribute="top" secondItem="deA-h8-05g" secondAttribute="top" constant="60" id="WAl-eI-gzf"/>
+                                            <constraint firstAttribute="height" constant="1500" id="elr-gY-Eb0"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="deA-h8-05g" firstAttribute="leading" secondItem="eJy-xI-Cgu" secondAttribute="leading" id="LVl-T5-YBV"/>
+                                    <constraint firstAttribute="trailing" secondItem="deA-h8-05g" secondAttribute="trailing" id="vqh-NX-5nl"/>
+                                    <constraint firstAttribute="bottom" secondItem="deA-h8-05g" secondAttribute="bottom" id="w6Z-sw-uf3"/>
+                                    <constraint firstItem="deA-h8-05g" firstAttribute="top" secondItem="eJy-xI-Cgu" secondAttribute="top" id="waO-o2-Zoo"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43794719510000002" green="0.1700224887" blue="0.14882654619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="deA-h8-05g" firstAttribute="width" secondItem="TR5-JG-qHg" secondAttribute="width" id="UJm-ij-NDM"/>
+                            <constraint firstItem="eJy-xI-Cgu" firstAttribute="top" secondItem="1WE-XW-QsZ" secondAttribute="top" id="dmE-2P-dVv"/>
+                            <constraint firstAttribute="bottom" secondItem="eJy-xI-Cgu" secondAttribute="bottom" id="kYW-G1-9ks"/>
+                            <constraint firstItem="eJy-xI-Cgu" firstAttribute="leading" secondItem="1WE-XW-QsZ" secondAttribute="leading" id="rhW-4Q-VRv"/>
+                            <constraint firstItem="eJy-xI-Cgu" firstAttribute="trailing" secondItem="1WE-XW-QsZ" secondAttribute="trailing" id="xaL-W9-Fqs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1WE-XW-QsZ"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7bc-qj-tPd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2903" y="-33"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kWQ-ty-OtE">
+            <objects>
+                <viewController id="Q5A-bD-lOZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OeX-Mz-HEy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Guy-0V-ji2">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1456"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ltX-qg-8Ko" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3p-wa-eXc">
+                                                <rect key="frame" x="114.00000000000001" y="60" width="186.33333333333337" height="37"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="UPLB Calendar">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="27" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.43794719510000002" green="0.1700224887" blue="0.14882654619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="Y3p-wa-eXc" firstAttribute="centerX" secondItem="ltX-qg-8Ko" secondAttribute="centerX" id="CWT-E3-cA1"/>
+                                            <constraint firstItem="Y3p-wa-eXc" firstAttribute="top" secondItem="ltX-qg-8Ko" secondAttribute="top" constant="60" id="MJM-es-1g1"/>
+                                            <constraint firstAttribute="height" constant="1500" id="zVn-eB-jpP"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ltX-qg-8Ko" firstAttribute="top" secondItem="Guy-0V-ji2" secondAttribute="top" id="E49-vc-5Kg"/>
+                                    <constraint firstAttribute="bottom" secondItem="ltX-qg-8Ko" secondAttribute="bottom" id="HKc-KY-Pf7"/>
+                                    <constraint firstAttribute="trailing" secondItem="ltX-qg-8Ko" secondAttribute="trailing" id="oLn-fZ-Wzd"/>
+                                    <constraint firstItem="ltX-qg-8Ko" firstAttribute="leading" secondItem="Guy-0V-ji2" secondAttribute="leading" id="plY-av-Cf1"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43794719510000002" green="0.1700224887" blue="0.14882654619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Guy-0V-ji2" secondAttribute="bottom" id="2ik-3X-IIP"/>
+                            <constraint firstItem="Guy-0V-ji2" firstAttribute="trailing" secondItem="HGK-Oc-oom" secondAttribute="trailing" id="Nj2-91-lD0"/>
+                            <constraint firstItem="Guy-0V-ji2" firstAttribute="leading" secondItem="HGK-Oc-oom" secondAttribute="leading" id="PTA-su-j8b"/>
+                            <constraint firstItem="ltX-qg-8Ko" firstAttribute="width" secondItem="OeX-Mz-HEy" secondAttribute="width" id="oSZ-1E-pOb"/>
+                            <constraint firstItem="Guy-0V-ji2" firstAttribute="top" secondItem="HGK-Oc-oom" secondAttribute="top" id="of5-U2-p18"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HGK-Oc-oom"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m2b-Y7-61u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3713" y="-33"/>
         </scene>
     </scenes>
     <resources>
@@ -310,7 +681,10 @@
         <image name="MapButton" width="300" height="300"/>
         <image name="TipsButton" width="300" height="300"/>
         <image name="background6" width="2212" height="1266"/>
+        <image name="baker-hall" width="300" height="194"/>
+        <image name="copeland" width="220" height="292"/>
         <image name="sg_logo" width="300" height="300"/>
+        <image name="uplb-front" width="1024" height="512"/>
         <image name="uplb_logo" width="300" height="272"/>
     </resources>
 </document>
