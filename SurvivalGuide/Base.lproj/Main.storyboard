@@ -3801,14 +3801,14 @@
             <objects>
                 <viewController id="Apg-SU-KA2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jky-2x-v3Q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bec-ic-qA7">
-                                <rect key="frame" x="0.0" y="44" width="414" height="556"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="1056"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gjo-3B-7QP" userLabel="LongView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1100"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6I8-YA-r3h">
                                                 <rect key="frame" x="18" y="0.0" width="31" height="37"/>
@@ -3824,6 +3824,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="vXV-DV-Fdd" kind="show" id="FtE-ZH-aAq"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGH-zd-rMS">
                                                 <rect key="frame" x="149.33333333333334" y="50" width="115.33333333333334" height="50"/>
@@ -3841,15 +3844,22 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgV-KV-2oV">
-                                                <rect key="frame" x="27" y="108" width="360" height="200"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgV-KV-2oV">
+                                                <rect key="frame" x="27" y="130" width="360" height="900"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="360" id="LjW-Ec-H1f"/>
-                                                    <constraint firstAttribute="height" constant="200" id="mnu-tV-Ao5"/>
+                                                    <constraint firstAttribute="height" constant="900" id="mnu-tV-Ao5"/>
                                                 </constraints>
-                                                <mutableString key="text">Online Enlistment is probably one of the most important and stressful moments UP students face since it kicks off the opening of the semester and by this point I know you have heard a thing or two about the Student Academic Information System or what is commonly known as SAIS. But what truly is SAIS?\n\n\t\tHere are our tips on how to use SAIS:\n\n\t\t&lt;b&gt;Be prepared.&lt;/b&gt; Be sure you know what subjects you have to take or what subjects you can take the following semester. If you don\'t have the faintest idea, get your checklist from your college secretary. After that, write down the subjects you need. You need to be fast because slots disappear with just a blink of an eye.\n\n\t\t&lt;b&gt;Be resourceful.&lt;/b&gt; Computer shops tend to be full during pre-enlistment period so you might want to secure a seat before everyone else or bring your own laptop and ask if you can plug it in. Be sure the internet speed is fast, since you are racing a couple of students for majors, and a couple hundred for general education courses.\n\n\t\t&lt;b&gt;Be early.&lt;/b&gt; The early bird gets the worm. The same goes for SAIS. If you wait until afternoon to open your SAIS account, you might end up seeing that you cannot take a seasonal class due to lack of slots. If pre-enlistment starts at 9, be sure to have your browser open by 8:30.\n\n\t\t&lt;b&gt;Think fast.&lt;/b&gt; If there\'s a subject with no slots left, keep refreshing the browser or think of an alternative subject that has slots. It is a race against time.\n\n\t\tAfter the pre-enlistment and registration &lt;b&gt;NEVER EVER&lt;/b&gt; forget to claim your &lt;b&gt;FORM 5&lt;/b&gt; or else your subjects would be &lt;b&gt;DROPPED&lt;/b&gt;.</mutableString>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <mutableString key="content">Online Enlistment is probably one of the most important and stressful moments UP students face since it kicks off the opening of the semester and by this point I know you have heard a thing or two about the Student Academic Information System or what is commonly known as SAIS. But what truly is SAIS?  Here are our tips on how to use SAIS:   Be prepared.  Be sure you know what subjects you have to take or what subjects you can take the following semester. If you don't have the faintest idea, get your checklist from your college secretary. After that, write down the subjects you need. You need to be fast because slots disappear with just a blink of an eye.  Be resourceful.  Computer shops tend to be full during pre-enlistment period so you might want to secure a seat before everyone else or bring your own laptop and ask if you can plug it in. Be sure the internet speed is fast, since you are racing a couple of students for majors, and a couple hundred for general education courses.  Be early. The early bird gets the worm. The same goes for SAIS. If you wait until afternoon to open your SAIS account, you might end up seeing that you cannot take a seasonal class due to lack of slots. If pre-enlistment starts at 9, be sure to have your browser open by 8:30.  Think fast.  If there's a subject with no slots left, keep refreshing the browser or think of an alternative subject that has slots. It is a race against time.  After the pre-enlistment and registration NEVER EVER forget to claim your FORM 5 or else your subjects would be DROPPED.</mutableString>
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="15" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -3860,7 +3870,7 @@
                                             <constraint firstItem="GGH-zd-rMS" firstAttribute="centerX" secondItem="gjo-3B-7QP" secondAttribute="centerX" id="Grh-fL-Soa"/>
                                             <constraint firstItem="GGH-zd-rMS" firstAttribute="centerX" secondItem="gjo-3B-7QP" secondAttribute="centerX" id="Q2p-aD-612"/>
                                             <constraint firstItem="GGH-zd-rMS" firstAttribute="centerX" secondItem="gjo-3B-7QP" secondAttribute="centerX" id="ZrD-Zp-oNa"/>
-                                            <constraint firstAttribute="height" constant="600" id="oT5-aT-4tr"/>
+                                            <constraint firstAttribute="height" constant="1100" id="oT5-aT-4tr"/>
                                             <constraint firstItem="GGH-zd-rMS" firstAttribute="top" secondItem="gjo-3B-7QP" secondAttribute="top" constant="50" id="xyo-hT-IX5"/>
                                         </constraints>
                                     </view>
@@ -3883,25 +3893,25 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UVx-Iz-v8N"/>
                     </view>
-                    <size key="freeformSize" width="414" height="600"/>
+                    <size key="freeformSize" width="414" height="1100"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BR3-3n-0qt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5945" y="1089"/>
+            <point key="canvasLocation" x="3448" y="-1549"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JqB-RE-sNg">
             <objects>
                 <viewController id="vXV-DV-Fdd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eml-t7-7oR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dat-d1-Ucc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fq7-h7-v4U" userLabel="LongView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39r-2v-bBU">
                                                 <rect key="frame" x="156.66666666666666" y="40" width="100.66666666666666" height="50"/>
@@ -3920,7 +3930,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gsm-Ze-pBD">
-                                                <rect key="frame" x="32" y="255" width="350" height="990"/>
+                                                <rect key="frame" x="32" y="155" width="350" height="690"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Noy-hT-J3K" userLabel="GradingSystem">
                                                         <rect key="frame" x="0.0" y="0.0" width="350" height="36.666666666666664"/>
@@ -3935,9 +3945,12 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="Apg-SU-KA2" kind="show" id="D4B-dm-28j"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Osw-lk-kOb" userLabel="Kwatro">
-                                                        <rect key="frame" x="0.0" y="56.666666666666686" width="350" height="36.666666666666657"/>
+                                                        <rect key="frame" x="0.0" y="56.666666666666657" width="350" height="36.666666666666657"/>
                                                         <state key="normal">
                                                             <attributedString key="attributedTitle">
                                                                 <fragment content="List of GE Courses">
@@ -3949,12 +3962,15 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="Bej-vh-Zzn" kind="show" id="OZT-zo-vwk"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GTz-kU-PfL" userLabel="Singko">
                                                         <rect key="frame" x="0.0" y="113.33333333333333" width="350" height="36.666666666666671"/>
                                                         <state key="normal">
                                                             <attributedString key="attributedTitle">
-                                                                <fragment content="What Should I do when I get a grade of 5?">
+                                                                <fragment content="Shifting Courses">
                                                                     <attributes>
                                                                         <color key="NSColor" red="0.98454222430000005" green="0.9795003296" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <font key="NSFont" size="18" name="AvenirNext-Medium"/>
@@ -3963,12 +3979,15 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="LuN-9X-gUE" kind="show" id="O8n-xP-wpZ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HIa-Qg-RQD" userLabel="Elective">
                                                         <rect key="frame" x="0.0" y="170" width="350" height="36.666666666666657"/>
                                                         <state key="normal">
                                                             <attributedString key="attributedTitle">
-                                                                <fragment content="What's an Elective?">
+                                                                <fragment content="Financial Aid: SFA and SLB">
                                                                     <attributes>
                                                                         <color key="NSColor" red="0.98454222430000005" green="0.9795003296" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <font key="NSFont" size="18" name="AvenirNext-Medium"/>
@@ -3977,12 +3996,15 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="sEM-Wq-I6Q" kind="show" id="NAM-3P-4Vg"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OQS-Ls-jiQ" userLabel="Adviser">
                                                         <rect key="frame" x="0.0" y="226.66666666666669" width="350" height="36.666666666666686"/>
                                                         <state key="normal">
                                                             <attributedString key="attributedTitle">
-                                                                <fragment content="What's a faculty adviser?">
+                                                                <fragment content="How To Save Money">
                                                                     <attributes>
                                                                         <color key="NSColor" red="0.98454222430000005" green="0.9795003296" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <font key="NSFont" size="18" name="AvenirNext-Medium"/>
@@ -3991,12 +4013,15 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="7ye-gl-mUl" kind="show" id="6ao-YM-TP1"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xah-hI-UIn" userLabel="Subjects">
-                                                        <rect key="frame" x="0.0" y="283.33333333333337" width="350" height="36.666666666666686"/>
+                                                        <rect key="frame" x="0.0" y="283.33333333333331" width="350" height="36.666666666666686"/>
                                                         <state key="normal">
                                                             <attributedString key="attributedTitle">
-                                                                <fragment content="What subject must I pass?">
+                                                                <fragment content="How To Survive Hell Week">
                                                                     <attributes>
                                                                         <color key="NSColor" red="0.98454222430000005" green="0.9795003296" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <font key="NSFont" size="18" name="AvenirNext-Medium"/>
@@ -4005,12 +4030,15 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="to6-Gf-QGI" kind="show" id="VAd-Vb-5xD"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RtE-cM-aEg" userLabel="LOA">
                                                         <rect key="frame" x="0.0" y="340" width="350" height="36.666666666666686"/>
                                                         <state key="normal">
                                                             <attributedString key="attributedTitle">
-                                                                <fragment content="What is LOA? Suspension?">
+                                                                <fragment content="How To Handle an Exam">
                                                                     <attributes>
                                                                         <color key="NSColor" red="0.98454222430000005" green="0.9795003296" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <font key="NSFont" size="18" name="AvenirNext-Medium"/>
@@ -4019,12 +4047,15 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="BaW-HJ-Gxb" kind="show" id="hnO-9Z-eVP"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eo7-5g-aQE" userLabel="Cutting">
                                                         <rect key="frame" x="0.0" y="396.66666666666663" width="350" height="36.666666666666686"/>
                                                         <state key="normal">
                                                             <attributedString key="attributedTitle">
-                                                                <fragment content="Can I cut classes?">
+                                                                <fragment content="Turn Around a Failing Subject">
                                                                     <attributes>
                                                                         <color key="NSColor" red="0.98454222430000005" green="0.9795003296" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <font key="NSFont" size="18" name="AvenirNext-Medium"/>
@@ -4033,12 +4064,15 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="ILz-Qd-Nro" kind="show" id="ofx-XH-jMz"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z5N-Ov-6YZ" userLabel="Sick">
                                                         <rect key="frame" x="0.0" y="453.33333333333337" width="350" height="36.666666666666686"/>
                                                         <state key="normal">
                                                             <attributedString key="attributedTitle">
-                                                                <fragment content="What if I'm sick?">
+                                                                <fragment content="Joining an Organization">
                                                                     <attributes>
                                                                         <color key="NSColor" red="0.98454222430000005" green="0.9795003296" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <font key="NSFont" size="18" name="AvenirNext-Medium"/>
@@ -4047,6 +4081,9 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="Ccl-ki-sjT" kind="show" id="te7-rj-9F9"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bvD-H3-jt2" userLabel="Subjects">
                                                         <rect key="frame" x="0.0" y="510" width="350" height="80"/>
@@ -4055,7 +4092,7 @@
                                                         </constraints>
                                                         <state key="normal">
                                                             <attributedString key="attributedTitle">
-                                                                <fragment content="Can I exceed the units load in a semester?">
+                                                                <fragment content="UPLB Feb Fair">
                                                                     <attributes>
                                                                         <color key="NSColor" red="0.98454222430000005" green="0.9795003296" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <font key="NSFont" size="18" name="AvenirNext-Medium"/>
@@ -4064,6 +4101,9 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="1WL-cP-BAM" kind="show" id="vbb-Ea-FQD"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FSc-Et-FWp" userLabel="BadTeacher">
                                                         <rect key="frame" x="0.0" y="610" width="350" height="80"/>
@@ -4072,7 +4112,7 @@
                                                         </constraints>
                                                         <state key="normal">
                                                             <attributedString key="attributedTitle">
-                                                                <fragment content="Can I quit a subject?">
+                                                                <fragment content="Bakasyon Syndrome">
                                                                     <attributes>
                                                                         <color key="NSColor" red="0.98454222430000005" green="0.9795003296" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <font key="NSFont" size="18" name="AvenirNext-Medium"/>
@@ -4081,57 +4121,9 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="chR-L7-G6R" userLabel="GWA">
-                                                        <rect key="frame" x="0.0" y="710" width="350" height="80"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="80" id="9Ji-Vr-MKI"/>
-                                                        </constraints>
-                                                        <state key="normal">
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content="General Weighted Average computation">
-                                                                    <attributes>
-                                                                        <color key="NSColor" red="0.98454222430000005" green="0.9795003296" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                        <font key="NSFont" size="18" name="AvenirNext-Medium"/>
-                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Han-ae-7a3" userLabel="Expulsion">
-                                                        <rect key="frame" x="0.0" y="810" width="350" height="80"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="80" id="yJh-SZ-PDi"/>
-                                                        </constraints>
-                                                        <state key="normal">
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content="Does UPLB kick out students?">
-                                                                    <attributes>
-                                                                        <color key="NSColor" red="0.98454222430000005" green="0.9795003296" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                        <font key="NSFont" size="18" name="AvenirNext-Medium"/>
-                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
-                                                        </state>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ERg-kL-oxt" userLabel="Honors">
-                                                        <rect key="frame" x="0.0" y="910" width="350" height="80"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="80" id="ATs-02-JpU"/>
-                                                        </constraints>
-                                                        <state key="normal">
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content="Running for honors?">
-                                                                    <attributes>
-                                                                        <color key="NSColor" red="0.98454222430000005" green="0.9795003296" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                        <font key="NSFont" size="18" name="AvenirNext-Medium"/>
-                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
-                                                        </state>
+                                                        <connections>
+                                                            <segue destination="1bl-ti-hN6" kind="show" id="Phh-t3-Yno"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -4164,7 +4156,7 @@
                                             <constraint firstItem="39r-2v-bBU" firstAttribute="centerX" secondItem="fq7-h7-v4U" secondAttribute="centerX" id="MJA-e6-vdS"/>
                                             <constraint firstItem="39r-2v-bBU" firstAttribute="leading" secondItem="y9v-Gd-NrF" secondAttribute="trailing" constant="17" id="Tws-rw-viF"/>
                                             <constraint firstItem="gsm-Ze-pBD" firstAttribute="centerY" secondItem="fq7-h7-v4U" secondAttribute="centerY" id="pC1-JV-J80"/>
-                                            <constraint firstAttribute="height" constant="1500" id="v2D-g9-LHC"/>
+                                            <constraint firstAttribute="height" constant="1000" id="v2D-g9-LHC"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -4186,11 +4178,971 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="b5u-ss-4wS"/>
                     </view>
-                    <size key="freeformSize" width="414" height="1500"/>
+                    <size key="freeformSize" width="414" height="1000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IDF-gm-me3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2929" y="336"/>
+            <point key="canvasLocation" x="2755" y="188"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6oz-Nz-JVb">
+            <objects>
+                <viewController id="Bej-vh-Zzn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c2z-Y8-5GU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aEH-zH-9Ys">
+                                <rect key="frame" x="0.0" y="44" width="414" height="956"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ITz-FK-2fN" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mqy-K1-Yvg">
+                                                <rect key="frame" x="18" y="0.0" width="31" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Exit">
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXV-DV-Fdd" kind="show" id="IfE-Pg-z1O"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iv-Pp-Suv">
+                                                <rect key="frame" x="123.66666666666667" y="50" width="166.66666666666663" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="LQ6-E7-zZ2"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="List of GE Courses">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.84903254530000005" green="0.59338197579999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="20" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgW-YJ-y8b">
+                                                <rect key="frame" x="27" y="130" width="360" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="6cW-Ow-JwK"/>
+                                                    <constraint firstAttribute="width" constant="360" id="knY-GN-iYb"/>
+                                                </constraints>
+                                                <mutableString key="text">Online Enlistment is probably one of the most important and stressful moments UP students face since it kicks off the opening of the semester and by this point I know you have heard a thing or two about the Student Academic Information System or what is commonly known as SAIS. But what truly is SAIS?\n\n\t\tHere are our tips on how to use SAIS:\n\n\t\t&lt;b&gt;Be prepared.&lt;/b&gt; Be sure you know what subjects you have to take or what subjects you can take the following semester. If you don\'t have the faintest idea, get your checklist from your college secretary. After that, write down the subjects you need. You need to be fast because slots disappear with just a blink of an eye.\n\n\t\t&lt;b&gt;Be resourceful.&lt;/b&gt; Computer shops tend to be full during pre-enlistment period so you might want to secure a seat before everyone else or bring your own laptop and ask if you can plug it in. Be sure the internet speed is fast, since you are racing a couple of students for majors, and a couple hundred for general education courses.\n\n\t\t&lt;b&gt;Be early.&lt;/b&gt; The early bird gets the worm. The same goes for SAIS. If you wait until afternoon to open your SAIS account, you might end up seeing that you cannot take a seasonal class due to lack of slots. If pre-enlistment starts at 9, be sure to have your browser open by 8:30.\n\n\t\t&lt;b&gt;Think fast.&lt;/b&gt; If there\'s a subject with no slots left, keep refreshing the browser or think of an alternative subject that has slots. It is a race against time.\n\n\t\tAfter the pre-enlistment and registration &lt;b&gt;NEVER EVER&lt;/b&gt; forget to claim your &lt;b&gt;FORM 5&lt;/b&gt; or else your subjects would be &lt;b&gt;DROPPED&lt;/b&gt;.</mutableString>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="4iv-Pp-Suv" firstAttribute="centerX" secondItem="ITz-FK-2fN" secondAttribute="centerX" id="26y-dF-BiL"/>
+                                            <constraint firstItem="4iv-Pp-Suv" firstAttribute="top" secondItem="ITz-FK-2fN" secondAttribute="top" constant="50" id="Cfh-ea-3lb"/>
+                                            <constraint firstItem="DgW-YJ-y8b" firstAttribute="centerX" secondItem="ITz-FK-2fN" secondAttribute="centerX" id="Juy-LI-D0E"/>
+                                            <constraint firstItem="4iv-Pp-Suv" firstAttribute="centerX" secondItem="ITz-FK-2fN" secondAttribute="centerX" id="PG6-sU-13v"/>
+                                            <constraint firstAttribute="height" constant="1000" id="vaq-tR-PQh"/>
+                                            <constraint firstItem="DgW-YJ-y8b" firstAttribute="top" secondItem="4iv-Pp-Suv" secondAttribute="bottom" constant="30" id="wGJ-Hq-Qwl"/>
+                                            <constraint firstItem="4iv-Pp-Suv" firstAttribute="centerX" secondItem="ITz-FK-2fN" secondAttribute="centerX" id="xgN-tO-Z81"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ITz-FK-2fN" firstAttribute="leading" secondItem="aEH-zH-9Ys" secondAttribute="leading" id="77E-oW-6a5"/>
+                                    <constraint firstAttribute="bottom" secondItem="ITz-FK-2fN" secondAttribute="bottom" id="77d-Rl-Jxy"/>
+                                    <constraint firstItem="ITz-FK-2fN" firstAttribute="top" secondItem="aEH-zH-9Ys" secondAttribute="top" id="TQv-G9-zEK"/>
+                                    <constraint firstAttribute="trailing" secondItem="ITz-FK-2fN" secondAttribute="trailing" id="XFK-xw-sJj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ITz-FK-2fN" firstAttribute="width" secondItem="c2z-Y8-5GU" secondAttribute="width" id="Hae-cN-bzn"/>
+                            <constraint firstItem="aEH-zH-9Ys" firstAttribute="leading" secondItem="VJb-5q-PGY" secondAttribute="leading" id="JvZ-1z-EeZ"/>
+                            <constraint firstItem="aEH-zH-9Ys" firstAttribute="top" secondItem="VJb-5q-PGY" secondAttribute="top" id="egm-vL-1m9"/>
+                            <constraint firstAttribute="bottom" secondItem="aEH-zH-9Ys" secondAttribute="bottom" id="m8T-79-Pf0"/>
+                            <constraint firstItem="aEH-zH-9Ys" firstAttribute="trailing" secondItem="VJb-5q-PGY" secondAttribute="trailing" id="x4W-LM-PqB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VJb-5q-PGY"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PlC-gp-R4i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4071" y="-1582"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Mwb-1a-xqu">
+            <objects>
+                <viewController id="LuN-9X-gUE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NH1-s3-0F9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rkw-Mg-7E3">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1556"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vMX-FT-UDi" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hTj-vJ-uJZ">
+                                                <rect key="frame" x="18" y="0.0" width="31" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Exit">
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXV-DV-Fdd" kind="show" id="FnG-Br-hCg"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1BW-Jf-9xg">
+                                                <rect key="frame" x="132.33333333333337" y="50" width="149.66666666666663" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="ctG-L6-cm2"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Shifting Courses">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.84903254530000005" green="0.59338197579999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="20" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teq-6X-kbU">
+                                                <rect key="frame" x="27" y="130" width="360" height="1400"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="6Qv-ay-TOS"/>
+                                                    <constraint firstAttribute="height" constant="1400" id="ekn-H4-Yqa"/>
+                                                </constraints>
+                                                <mutableString key="text">We believe that not everyone can make the best choice immediately. If you are not happy with your current degree program, UPLB allows you to shift to a different one.Here are guidelines on how to shift to another course:  Note: These guidelines were taken from the College of Engineering and Agro-Industrial Technology. Ask your College Secretary or Academic Adviser on how to shift courses.  Guidelines:  *The student is allowed to shift/transfer only after two years of residency.  Justification:  This is to give sufficient time for the student to appreciate the engineering course offered by UPLB.   *If the student was a wait-listed applicant, he/she is not allowed to shift/transfer.  Justification: Wait-listed slots are limited and should better be given to those who are willing to finish the degree.  *Write a formal letter of request to shift/transfer addressed to the CEAT Dean (reasons for transferring/shifting and the degree to be taken). The letter should be noted by parents and for recommending approval/disapproval by the adviser and department chairman. The letter must be processed by the student (no representatives allowed).  *Prior to the submission of the letter of request, the student must request a True Copy of Grades from the Office of the College Secretary. This will be submitted together with the formal letter of request.  *The adviser and chairman of the department shall interview the student and indicate their approval or disapproval in the letter of request.  *After the adviser and chairman have signed, the letter of request must be submitted to the Office of the College Secretary. The College Secretary schedules the student for a panel interview with the Student Admission and Readmission Committee.  *The Committee on Student Admission and Readmission will conduct a panel interview and will forward a recommendatory decision of approval/disapproval to the Dean.  *The Dean will make his decision based on the recommendations of the Committee on Student Admission and Readmission.  *A copy of the decision will be forwarded to the Office of the College Secretary for the student's perusal.  *The Dean's decision is final and appeals for reconsideration shall not be entertained.</mutableString>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="teq-6X-kbU" firstAttribute="centerX" secondItem="vMX-FT-UDi" secondAttribute="centerX" id="5gn-LN-SuS"/>
+                                            <constraint firstItem="1BW-Jf-9xg" firstAttribute="centerX" secondItem="vMX-FT-UDi" secondAttribute="centerX" id="AIC-Ck-UDL"/>
+                                            <constraint firstAttribute="height" constant="1600" id="BVW-TL-NQ2"/>
+                                            <constraint firstItem="1BW-Jf-9xg" firstAttribute="centerX" secondItem="vMX-FT-UDi" secondAttribute="centerX" id="CwP-MQ-l3r"/>
+                                            <constraint firstItem="1BW-Jf-9xg" firstAttribute="centerX" secondItem="vMX-FT-UDi" secondAttribute="centerX" id="fEN-Ff-0GY"/>
+                                            <constraint firstItem="teq-6X-kbU" firstAttribute="top" secondItem="1BW-Jf-9xg" secondAttribute="bottom" constant="30" id="m9m-DW-Myk"/>
+                                            <constraint firstItem="1BW-Jf-9xg" firstAttribute="top" secondItem="vMX-FT-UDi" secondAttribute="top" constant="50" id="oNB-U0-plt"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="vMX-FT-UDi" secondAttribute="bottom" id="C3P-gz-2To"/>
+                                    <constraint firstAttribute="trailing" secondItem="vMX-FT-UDi" secondAttribute="trailing" id="FhW-jl-Eou"/>
+                                    <constraint firstItem="vMX-FT-UDi" firstAttribute="leading" secondItem="Rkw-Mg-7E3" secondAttribute="leading" id="Kcj-7Q-dGk"/>
+                                    <constraint firstItem="vMX-FT-UDi" firstAttribute="top" secondItem="Rkw-Mg-7E3" secondAttribute="top" id="Z8G-kx-pUP"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Rkw-Mg-7E3" secondAttribute="bottom" id="3Lj-w5-IcH"/>
+                            <constraint firstItem="vMX-FT-UDi" firstAttribute="width" secondItem="NH1-s3-0F9" secondAttribute="width" id="5pj-qZ-cgp"/>
+                            <constraint firstItem="Rkw-Mg-7E3" firstAttribute="trailing" secondItem="f0l-Te-qVp" secondAttribute="trailing" id="AkU-A0-5VC"/>
+                            <constraint firstItem="Rkw-Mg-7E3" firstAttribute="leading" secondItem="f0l-Te-qVp" secondAttribute="leading" id="WAZ-pg-ZC7"/>
+                            <constraint firstItem="Rkw-Mg-7E3" firstAttribute="top" secondItem="f0l-Te-qVp" secondAttribute="top" id="asL-EV-7Zw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="f0l-Te-qVp"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ke-Un-31h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4725" y="-1381"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tyl-QG-4LI">
+            <objects>
+                <viewController id="sEM-Wq-I6Q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HNm-9K-sIl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xLL-v6-Czh">
+                                <rect key="frame" x="0.0" y="44" width="414" height="756"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hhG-bh-ePR" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="31a-qa-Hoh">
+                                                <rect key="frame" x="18" y="0.0" width="31" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Exit">
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXV-DV-Fdd" kind="show" id="woJ-oM-Iah"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D25-dy-67V">
+                                                <rect key="frame" x="85.000000000000014" y="50" width="244.33333333333337" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="7Eq-Q7-cRb"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Financial Aid: SFA and SLB">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.84903254530000005" green="0.59338197579999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="20" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bH8-8f-IrM">
+                                                <rect key="frame" x="27" y="130" width="360" height="500"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="gDx-oG-Mzp"/>
+                                                    <constraint firstAttribute="height" constant="500" id="uQD-FM-4F9"/>
+                                                </constraints>
+                                                <mutableString key="text">The Student Financial Assistance (SFA) online is an online platform of the UP system that allows students to apply for tuition subsidies and financial assistance programs.  In UPLB, the scholarship is given by the Scholarship and Financial Assistance Division (SFAD). When applying for the STS, you choose between 6 brackets that depends on your social status of the annual family income.  For more information, go to sfaonline.up.edu.ph   The Student Loan Board (SLB may help a student in need by providing an 80% loan, that can be paid by installments or before registering the following semester. The loan, the same as STS, is also given by SFAD. Upon applying for a loan, the amount borrowed gains an interest of 3% per year.  For more information, go to uplbosa.org/page-slb</mutableString>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="800" id="S5A-1B-sPO"/>
+                                            <constraint firstItem="bH8-8f-IrM" firstAttribute="centerX" secondItem="hhG-bh-ePR" secondAttribute="centerX" id="ZF4-As-seW"/>
+                                            <constraint firstItem="D25-dy-67V" firstAttribute="top" secondItem="hhG-bh-ePR" secondAttribute="top" constant="50" id="bAg-s7-i9S"/>
+                                            <constraint firstItem="D25-dy-67V" firstAttribute="centerX" secondItem="hhG-bh-ePR" secondAttribute="centerX" id="pX6-aE-yVO"/>
+                                            <constraint firstItem="bH8-8f-IrM" firstAttribute="top" secondItem="D25-dy-67V" secondAttribute="bottom" constant="30" id="qWa-BF-oDm"/>
+                                            <constraint firstItem="D25-dy-67V" firstAttribute="centerX" secondItem="hhG-bh-ePR" secondAttribute="centerX" id="rLU-vq-Gec"/>
+                                            <constraint firstItem="D25-dy-67V" firstAttribute="centerX" secondItem="hhG-bh-ePR" secondAttribute="centerX" id="xEd-1k-i6v"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hhG-bh-ePR" firstAttribute="leading" secondItem="xLL-v6-Czh" secondAttribute="leading" id="OxJ-MS-wnM"/>
+                                    <constraint firstItem="hhG-bh-ePR" firstAttribute="top" secondItem="xLL-v6-Czh" secondAttribute="top" id="YCW-Iy-rWZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="hhG-bh-ePR" secondAttribute="bottom" id="blW-Ee-XxS"/>
+                                    <constraint firstAttribute="trailing" secondItem="hhG-bh-ePR" secondAttribute="trailing" id="pmS-uD-enT"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="hhG-bh-ePR" firstAttribute="width" secondItem="HNm-9K-sIl" secondAttribute="width" id="7cv-pd-PIt"/>
+                            <constraint firstAttribute="bottom" secondItem="xLL-v6-Czh" secondAttribute="bottom" id="Qv5-dN-13s"/>
+                            <constraint firstItem="xLL-v6-Czh" firstAttribute="top" secondItem="9Uv-0h-Ia5" secondAttribute="top" id="SR4-Vs-I97"/>
+                            <constraint firstItem="xLL-v6-Czh" firstAttribute="leading" secondItem="9Uv-0h-Ia5" secondAttribute="leading" id="Wld-2S-ik0"/>
+                            <constraint firstItem="xLL-v6-Czh" firstAttribute="trailing" secondItem="9Uv-0h-Ia5" secondAttribute="trailing" id="Xdm-PP-v4b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9Uv-0h-Ia5"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="800"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4RV-XF-yPP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3401" y="-518"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SIk-Jf-xVc">
+            <objects>
+                <viewController id="7ye-gl-mUl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hF3-0u-V33">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zuB-lV-Rrm">
+                                <rect key="frame" x="0.0" y="44" width="414" height="2056"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OkY-iy-BYK" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L73-BG-984">
+                                                <rect key="frame" x="18" y="0.0" width="31" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Exit">
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXV-DV-Fdd" kind="show" id="crh-mJ-nG0"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2e-kg-QpZ">
+                                                <rect key="frame" x="115.33333333333333" y="50" width="183.33333333333337" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="OmD-R5-wtw"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="How to Save Money">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.84903254530000005" green="0.59338197579999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="20" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPV-aW-JqK">
+                                                <rect key="frame" x="27" y="130" width="360" height="1900"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1900" id="84Z-bT-TLc"/>
+                                                    <constraint firstAttribute="width" constant="360" id="dVD-7M-o9b"/>
+                                                </constraints>
+                                                <mutableString key="text">No one can deny the fact that money is really scarce nowadays. Believe your parents when they say that the don\t pluck the allowance they're giving you from magical cash-bearing trees. During your stay in UP, it is almost a guarantee that a time will come that you will have to find a way to survive without a penny in your pocket.  *Learn to wash your clothes  To save money, you're going to have to use your silky-smooth hands to remove dirt from your wardrobe. Dormitories usually have areas for washing clothes. The usual laundry rate is at P20-P25/kg, so washing your own clothes will save you a lot of money. Think about it.  *Know the places to get more affordable food.  Fast food chains are abundant outside the campus, if that's what you crave for, but eating fast food everyday will drain your wallet dry. The best alternative is to find a place where you can get delicious and affordable meals. Karinderya and lutong-bahay stalls fill your stomach with budget-fitting price. Once in a while, you can get free food from "open tambayans" by student organizations. Mark your calendars on August 9 for largest "open tambayan" in the campus, it is for the celebration of the UP Epsilon Chi Fraternity's 46th Anniversary. Take advantage of this and eat to your heart's content.  *Find an affordable place to stay.  University-managed dorms are the most affordable, take note that some of these dorms lack facilities that you might need. The upside of living in these dorms is that you can get to know other students instantly, the downside is that there is no way of knowing ahead whether they would be your next best friends or your next arch enemies. There's no assurance that you would not be living with annoying and deafening dorm mates, in which case you can opt to live in private apartments and boarding houses. They can be found inside and outside the campus but are more costly compared to dorms. The good thing about residing in private apartments or boarding houses is that you're free to choose whoever you want to live with and live as comfortable as you want to.  *Walk.  With the continually soaring price of petroleum products in the international market, the rise in transportation costs is inevitable. So, we suggest you learn to walk. If the distance between the buildings where your classes are held isn't that great, why not take a stride and appreciate the campus? Sure, there will be times when it will feel like the sun is just right beside you, but if your budget has no place for fares then you\'ve got no other choice. Plus, walking around the university will give a more satisfying exercise. In a month's time, you'll have legs of steel.  *Borrow money.   We know it's a bit embarrassing. You could borrow from friends but only if you really need it. Just be sure to pay up before they turn into foes. If your friends can't lend you any, you could join an organization. Most organizations, fraternities and sororities, have a scholarship program run by their alumni for their resident members.  One excellent example is the UP Epsilon Chi Fraternity Scholarship Program, where their alumni, already established on their respective fields, give scholarships to deserving Brothers in need. You could borrow some money from the university as well. The money that will be lent would depend on your STS bracket.</mutableString>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="Z2e-kg-QpZ" firstAttribute="centerX" secondItem="OkY-iy-BYK" secondAttribute="centerX" id="0oT-wn-3tC"/>
+                                            <constraint firstItem="Z2e-kg-QpZ" firstAttribute="centerX" secondItem="OkY-iy-BYK" secondAttribute="centerX" id="5yz-QO-cch"/>
+                                            <constraint firstAttribute="height" constant="2100" id="Dvi-dk-YdP"/>
+                                            <constraint firstItem="Z2e-kg-QpZ" firstAttribute="top" secondItem="OkY-iy-BYK" secondAttribute="top" constant="50" id="I6i-Aa-aNn"/>
+                                            <constraint firstItem="wPV-aW-JqK" firstAttribute="top" secondItem="Z2e-kg-QpZ" secondAttribute="bottom" constant="30" id="Kak-4z-Ywd"/>
+                                            <constraint firstItem="Z2e-kg-QpZ" firstAttribute="centerX" secondItem="OkY-iy-BYK" secondAttribute="centerX" id="qei-lY-FYX"/>
+                                            <constraint firstItem="wPV-aW-JqK" firstAttribute="centerX" secondItem="OkY-iy-BYK" secondAttribute="centerX" id="zuk-MS-kqT"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="OkY-iy-BYK" secondAttribute="trailing" id="7a7-Zc-Ot9"/>
+                                    <constraint firstItem="OkY-iy-BYK" firstAttribute="leading" secondItem="zuB-lV-Rrm" secondAttribute="leading" id="KYY-5C-xwB"/>
+                                    <constraint firstAttribute="bottom" secondItem="OkY-iy-BYK" secondAttribute="bottom" id="nav-bS-qgR"/>
+                                    <constraint firstItem="OkY-iy-BYK" firstAttribute="top" secondItem="zuB-lV-Rrm" secondAttribute="top" id="x1p-mn-W43"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="OkY-iy-BYK" firstAttribute="width" secondItem="hF3-0u-V33" secondAttribute="width" id="UC1-iM-YbK"/>
+                            <constraint firstAttribute="bottom" secondItem="zuB-lV-Rrm" secondAttribute="bottom" id="d2q-g4-2gf"/>
+                            <constraint firstItem="zuB-lV-Rrm" firstAttribute="leading" secondItem="9d4-mn-FTr" secondAttribute="leading" id="j47-2h-fN7"/>
+                            <constraint firstItem="zuB-lV-Rrm" firstAttribute="top" secondItem="9d4-mn-FTr" secondAttribute="top" id="kHu-g5-GeO"/>
+                            <constraint firstItem="zuB-lV-Rrm" firstAttribute="trailing" secondItem="9d4-mn-FTr" secondAttribute="trailing" id="uQv-xG-M1e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9d4-mn-FTr"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="2100"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HEN-iZ-cQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4054" y="-82"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nWb-U6-JYJ">
+            <objects>
+                <viewController id="to6-Gf-QGI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OGn-Uu-PBU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PRj-9M-4ag">
+                                <rect key="frame" x="0.0" y="44" width="414" height="956"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEo-sa-sZu" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jpY-Va-Ie6">
+                                                <rect key="frame" x="18" y="0.0" width="31" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Exit">
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXV-DV-Fdd" kind="show" id="7Ke-mo-GcI"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8d-1c-3pZ">
+                                                <rect key="frame" x="88.666666666666686" y="50" width="237" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="GCR-57-nf8"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="How to Survive Hell Week">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.84903254530000005" green="0.59338197579999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="20" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCA-HH-iHf">
+                                                <rect key="frame" x="27" y="130" width="360" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="OwY-t6-Iuv"/>
+                                                    <constraint firstAttribute="width" constant="360" id="bd0-K1-HY3"/>
+                                                </constraints>
+                                                <mutableString key="text">Having problems facing your first UP hell week? Here are our tips to keep your boat afloat.\n\n\t\t1.\t\tCreate a study plan. This can help you avoid stress and being overwhelmed by the work you have yet to finish.\n\n\t\t2.\t\tTake breaks. Your ability to learn reduces the more time you spend staring at your books. Use your breaks wisely to maximize brain activity.\n\n\t\t3.\t\tPersonalize your notes. This is a form of active learning which can help you learn easier.\n\n\t\t4.\t\tGet enough sleep. Exhaustion is the enemy of the elite.\n\n\t\t5.\t\tAsk questions. A clear understanding is better than memorizing.\n\n\t\t6.\t\tTest yourself. Challenging your mind helps you ensure that the information is stored in your memory.\n\n\t\t7.\t\tReduce the clutter. This will help you focus on the important points.\n\n\t\t8.\t\tStudy not just to pass but to LEARN.\n\n\t\t9.\t\tReward yourself. There is no harm in having fun after a week of hardship</mutableString>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="6bf-hP-hDS"/>
+                                            <constraint firstItem="q8d-1c-3pZ" firstAttribute="centerX" secondItem="hEo-sa-sZu" secondAttribute="centerX" id="B2h-BI-9HW"/>
+                                            <constraint firstItem="q8d-1c-3pZ" firstAttribute="centerX" secondItem="hEo-sa-sZu" secondAttribute="centerX" id="DgB-A9-Xfv"/>
+                                            <constraint firstItem="q8d-1c-3pZ" firstAttribute="centerX" secondItem="hEo-sa-sZu" secondAttribute="centerX" id="Sag-aE-RZ4"/>
+                                            <constraint firstItem="fCA-HH-iHf" firstAttribute="top" secondItem="q8d-1c-3pZ" secondAttribute="bottom" constant="30" id="Swm-1r-CSN"/>
+                                            <constraint firstItem="q8d-1c-3pZ" firstAttribute="top" secondItem="hEo-sa-sZu" secondAttribute="top" constant="50" id="cHH-2Y-TbM"/>
+                                            <constraint firstItem="fCA-HH-iHf" firstAttribute="centerX" secondItem="hEo-sa-sZu" secondAttribute="centerX" id="g0E-dU-6ly"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="hEo-sa-sZu" secondAttribute="bottom" id="Uas-2f-kn3"/>
+                                    <constraint firstItem="hEo-sa-sZu" firstAttribute="top" secondItem="PRj-9M-4ag" secondAttribute="top" id="a6j-jp-Iif"/>
+                                    <constraint firstAttribute="trailing" secondItem="hEo-sa-sZu" secondAttribute="trailing" id="f20-bG-vHx"/>
+                                    <constraint firstItem="hEo-sa-sZu" firstAttribute="leading" secondItem="PRj-9M-4ag" secondAttribute="leading" id="vMI-i7-JYS"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="hEo-sa-sZu" firstAttribute="width" secondItem="OGn-Uu-PBU" secondAttribute="width" id="D8N-Le-opB"/>
+                            <constraint firstItem="PRj-9M-4ag" firstAttribute="top" secondItem="WoW-Xl-rEn" secondAttribute="top" id="Fsi-Rz-xN2"/>
+                            <constraint firstItem="PRj-9M-4ag" firstAttribute="trailing" secondItem="WoW-Xl-rEn" secondAttribute="trailing" id="Wre-Yc-Paz"/>
+                            <constraint firstItem="PRj-9M-4ag" firstAttribute="leading" secondItem="WoW-Xl-rEn" secondAttribute="leading" id="ehq-47-G7W"/>
+                            <constraint firstAttribute="bottom" secondItem="PRj-9M-4ag" secondAttribute="bottom" id="q5P-Ux-IRa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WoW-Xl-rEn"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H8V-Lb-b5o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4725" y="-585"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ctf-v1-jdS">
+            <objects>
+                <viewController id="BaW-HJ-Gxb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pVA-Mt-EaH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ach-pK-30A">
+                                <rect key="frame" x="0.0" y="44" width="414" height="556"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TzV-GU-0lp" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="amj-Rk-BV9">
+                                                <rect key="frame" x="18" y="0.0" width="31" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Exit">
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXV-DV-Fdd" kind="show" id="znD-FU-8EP"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fg-Dj-lK6">
+                                                <rect key="frame" x="96.666666666666686" y="50" width="221" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="fUO-BF-R52"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="How to Handle an Exam">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.84903254530000005" green="0.59338197579999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="20" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPx-Oh-sd1">
+                                                <rect key="frame" x="27" y="130" width="360" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="3E0-hk-MXS"/>
+                                                    <constraint firstAttribute="height" constant="200" id="Nrf-cZ-5XZ"/>
+                                                </constraints>
+                                                <mutableString key="text">Listen actively.\n\n\t\t2.\t\tTake down notes, it increases the retention of the lesson on your mind.\n\n\t\t3.\t\tDevote 15 to 30 minutes every day to review your notes for your mind not to be overloaded with lessons.\n\n\t\t4.\t\tGive your mind some challenge, answer exercises related to the topics.\n\n\t\t5.\t\tOn the exam day, wake up and get ready early.\n\n\t\t6.\t\tGive yourself a boost, have a meal before the exam.\n\n\t\t7.\t\tAs much as possible, go to the exam venue 10 minutes before the exam starts to avoid unforeseen circumstances.\n\n\t\t8.\t\tOn the venue, find a seat that is comfortable and will favour your ideas to come out.\n\n\t\t9.\t\tRelax your mind, do not force your brain to absorb lessons a minute or two before the examination. It won\'t just mix it all up.\n\n\t\t10.\t\tAs you receive the exam paper, write your name and other necessary information.\n\n\t\t11.\t\tScan the test paper then create an action plan in answering every question.\n\n\t\t12.\t\tStart answering the questions that you are most confident. Gain as many sure points as you can.\n\n\t\t13.\t\tIf there are any queries formed in your mind, do not be afraid to ask the examiner. They won\'t bite you.\n\n\t\t14.\t\tIf there is still time after answering all the questions, give your time some break then review your answers.\n\n\t\t15.\t\tAfter the examination, try not to worry about the exam, there are more stuffs to do focus you mind on the next task.</mutableString>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="4fg-Dj-lK6" firstAttribute="centerX" secondItem="TzV-GU-0lp" secondAttribute="centerX" id="3nP-AX-D5C"/>
+                                            <constraint firstItem="4fg-Dj-lK6" firstAttribute="centerX" secondItem="TzV-GU-0lp" secondAttribute="centerX" id="9AP-K0-ppA"/>
+                                            <constraint firstAttribute="height" constant="600" id="F4J-4Z-cvb"/>
+                                            <constraint firstItem="NPx-Oh-sd1" firstAttribute="top" secondItem="4fg-Dj-lK6" secondAttribute="bottom" constant="30" id="a3F-Hy-rvn"/>
+                                            <constraint firstItem="4fg-Dj-lK6" firstAttribute="centerX" secondItem="TzV-GU-0lp" secondAttribute="centerX" id="bxO-pi-gcD"/>
+                                            <constraint firstItem="NPx-Oh-sd1" firstAttribute="centerX" secondItem="TzV-GU-0lp" secondAttribute="centerX" id="ecF-Ht-95z"/>
+                                            <constraint firstItem="4fg-Dj-lK6" firstAttribute="top" secondItem="TzV-GU-0lp" secondAttribute="top" constant="50" id="tU7-tU-uZX"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="TzV-GU-0lp" secondAttribute="trailing" id="EB7-kf-NNN"/>
+                                    <constraint firstAttribute="bottom" secondItem="TzV-GU-0lp" secondAttribute="bottom" id="PrY-qs-JrE"/>
+                                    <constraint firstItem="TzV-GU-0lp" firstAttribute="leading" secondItem="ach-pK-30A" secondAttribute="leading" id="e8r-xC-iG6"/>
+                                    <constraint firstItem="TzV-GU-0lp" firstAttribute="top" secondItem="ach-pK-30A" secondAttribute="top" id="nHA-PC-qP8"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ach-pK-30A" secondAttribute="bottom" id="Nvh-Nr-EhG"/>
+                            <constraint firstItem="ach-pK-30A" firstAttribute="trailing" secondItem="ZQg-3O-pkB" secondAttribute="trailing" id="RmZ-Cs-C7I"/>
+                            <constraint firstItem="TzV-GU-0lp" firstAttribute="width" secondItem="pVA-Mt-EaH" secondAttribute="width" id="jvJ-EF-2xT"/>
+                            <constraint firstItem="ach-pK-30A" firstAttribute="leading" secondItem="ZQg-3O-pkB" secondAttribute="leading" id="lVq-69-Waz"/>
+                            <constraint firstItem="ach-pK-30A" firstAttribute="top" secondItem="ZQg-3O-pkB" secondAttribute="top" id="sIP-K4-xHk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZQg-3O-pkB"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K3I-Ns-MmL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3448" y="666"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dyJ-Zl-GlT">
+            <objects>
+                <viewController id="ILz-Qd-Nro" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C2S-En-bD3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R1V-Pc-ZMj">
+                                <rect key="frame" x="0.0" y="44" width="414" height="556"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bMp-Xw-Nq1" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SNT-xI-Lim">
+                                                <rect key="frame" x="18" y="0.0" width="31" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Exit">
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXV-DV-Fdd" kind="show" id="gl3-de-4Pf"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Jh-yX-OrT">
+                                                <rect key="frame" x="72" y="50" width="270" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="H2G-o6-3Tm"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Turn Around a Failing Subject">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.84903254530000005" green="0.59338197579999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="20" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5S3-tx-06d">
+                                                <rect key="frame" x="27" y="130" width="360" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="4s4-UA-BoL"/>
+                                                    <constraint firstAttribute="height" constant="200" id="Xa4-Xc-4Sa"/>
+                                                </constraints>
+                                                <mutableString key="text">Having trouble with a particular subject? Here are our tips on how to turn things around for the ultimate comeback!\n\n\t\t&amp;#8226;\t&lt;b&gt;Study your failure.&lt;/b&gt;\n\n\t\tAfter receiving your first marked-failed blue book, what is expected for you to do is determine why you failed. If your professor isn\'t the type to leave comments, visit them with your blue book and ask them to elaborate. You\'re a UP student now, we shouldn\'t simply accept things.\n\n\t\t&amp;#8226;\t&lt;b&gt;Be realistic.&lt;/b&gt;\n\n\t\tFresh from High School, where you were the cream of the crop, we know it\'ll be hard to accept the truth that you will now experience a failing grade. It\'s time to face the truth. Stop with the lie that you\'re the smartest in your class in high school. It won\'t be easy to do necessary actions without accepting it.\n\n\t\t&amp;#8226;\t&lt;b&gt;Re-order your priorities.&lt;/b&gt;\n\n\t\tObviously, you\'ve reached this point because acads is not your top priority yet. Yes, bonding with block mates is a lot more fun and it\'s just ok for you to hang-out with them. Just don\'t forget that it would really hurt when you experience your first &lt;i&gt;singko&lt;/i&gt;.\n\n\t\t&amp;#8226;\t&lt;b&gt;Talk to the professor.&lt;/b&gt;\n\n\t\tWe don\'t mean here for you to beg at your professor to pass you, UP is not a pity-factory, but to talk to him about your problem. You may admit that you\'re really having a hard time then ask for recommendations.\n\n\t\t&amp;#8226;\t&lt;b&gt;Make extra effort.&lt;/b&gt;\n\n\t\tProfs are also generous when it comes to incentives. Some give incentives to those who had no absences. Plays, quiz cons, symposia, fora, etc. are few things they\'ll ask you to do. You\'ll be also asked to make paper for incentives. Sure, it will cost you, but you need to remember that you are trying to resurrect your grades.\n\n\t\t&amp;#8226;\t&lt;b&gt;Examine options.&lt;/b&gt;\n\n\t\tYou can always ask for your standing. Consider the exam, exercises, etc. left if passing the course is still at hand. You may risk dropping the course if you think your case is hopeless which will be a good idea to save your future GWA. Consult your adviser for guidance before risking things out.\n\n\t\t&amp;#8226;\t&lt;b&gt;Get help.&lt;/b&gt;\n\n\t\tTurning to a tutor or a knowledgeable classmate isn\'t a sign of weakness - it\'s something that could help you save your grade. Many acad orgs conduct free tutorials for specific courses. OSA also conducts tutorial services with the help of their student volunteers.\n\n\t\t&amp;#8226;\t&lt;b&gt;Don\'t give up!&lt;/b&gt;\n\n\t\tYou\'re in UP now, where excellence is not just a standard. You may experience failing grades more than once but make sure that failures would turn you into a better isko/iska. Staying in the university for extra years isn\'t that bad, I\'m pretty sure you\'ll miss this place too.</mutableString>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="5S3-tx-06d" firstAttribute="centerX" secondItem="bMp-Xw-Nq1" secondAttribute="centerX" id="2j5-a5-tgb"/>
+                                            <constraint firstItem="0Jh-yX-OrT" firstAttribute="centerX" secondItem="bMp-Xw-Nq1" secondAttribute="centerX" id="Cgo-QI-5Vt"/>
+                                            <constraint firstItem="0Jh-yX-OrT" firstAttribute="top" secondItem="bMp-Xw-Nq1" secondAttribute="top" constant="50" id="Dro-NV-psc"/>
+                                            <constraint firstItem="0Jh-yX-OrT" firstAttribute="centerX" secondItem="bMp-Xw-Nq1" secondAttribute="centerX" id="Ee8-WH-OCb"/>
+                                            <constraint firstItem="0Jh-yX-OrT" firstAttribute="centerX" secondItem="bMp-Xw-Nq1" secondAttribute="centerX" id="HkX-K4-qn2"/>
+                                            <constraint firstAttribute="height" constant="600" id="P8j-ey-0NY"/>
+                                            <constraint firstItem="5S3-tx-06d" firstAttribute="top" secondItem="0Jh-yX-OrT" secondAttribute="bottom" constant="30" id="ZX3-vu-dfq"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="bMp-Xw-Nq1" secondAttribute="trailing" id="HaB-XN-msR"/>
+                                    <constraint firstItem="bMp-Xw-Nq1" firstAttribute="leading" secondItem="R1V-Pc-ZMj" secondAttribute="leading" id="KjT-p9-0YU"/>
+                                    <constraint firstAttribute="bottom" secondItem="bMp-Xw-Nq1" secondAttribute="bottom" id="bSm-cp-XQR"/>
+                                    <constraint firstItem="bMp-Xw-Nq1" firstAttribute="top" secondItem="R1V-Pc-ZMj" secondAttribute="top" id="o5z-UT-fi0"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="R1V-Pc-ZMj" firstAttribute="trailing" secondItem="WlX-V3-ekl" secondAttribute="trailing" id="KO6-z4-Qlq"/>
+                            <constraint firstItem="R1V-Pc-ZMj" firstAttribute="leading" secondItem="WlX-V3-ekl" secondAttribute="leading" id="Rng-yW-UmA"/>
+                            <constraint firstItem="bMp-Xw-Nq1" firstAttribute="width" secondItem="C2S-En-bD3" secondAttribute="width" id="c2V-pX-0uf"/>
+                            <constraint firstItem="R1V-Pc-ZMj" firstAttribute="top" secondItem="WlX-V3-ekl" secondAttribute="top" id="gdG-BI-DGK"/>
+                            <constraint firstAttribute="bottom" secondItem="R1V-Pc-ZMj" secondAttribute="bottom" id="kP3-uG-kdM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WlX-V3-ekl"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GzY-IJ-YUv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4106" y="869"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s85-bi-0Jk">
+            <objects>
+                <viewController id="Ccl-ki-sjT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rie-Ju-INJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CS9-ks-H5F">
+                                <rect key="frame" x="0.0" y="44" width="414" height="556"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ih-qv-hCq" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lSb-0T-VSd">
+                                                <rect key="frame" x="18" y="0.0" width="31" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Exit">
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXV-DV-Fdd" kind="show" id="LjS-gZ-WKH"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1X-R5-Ya9">
+                                                <rect key="frame" x="96.666666666666671" y="50" width="220.66666666666663" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="ZmD-J5-GUm"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Joining an Organization">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.84903254530000005" green="0.59338197579999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="20" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anJ-Ad-Y5E">
+                                                <rect key="frame" x="27" y="130" width="360" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="Xmg-fl-p4a"/>
+                                                    <constraint firstAttribute="height" constant="200" id="hh0-CL-sDe"/>
+                                                </constraints>
+                                                <mutableString key="text">If you fight for your limitations, you get to keep them.\"&lt;/i&gt;\n\n\t\tThe typical freshman mentality as he enters this university is for him to just go attend his classes, do his home works, do well in exams, graduate and get a job. He thinks that because academics define his capacity to be successful in his future. He sees organizations as a waste of time, and being part of one could hurt his academic performance, and in turn, ruin his chances at a brighter future. &lt;i&gt;\“Focus ako sa pag-aaral, wala akong balak mag org\”&lt;/i&gt; as one would say.\n\n\t\tWhile academics is crucial in increasing your chances of being successful in life, it alone does not define it. Look at it this way, there\'s probably hundreds of you enrolled in the same course. That course will be teaching the SAME subjects to you and your course-mates. You all will learn the same set of skills. How can you set yourself apart? Simple! Extracurricular activities.\n\n\t\tBy now maybe you are considering joining an organization in the future. There are a lot of extracurricular options here in the University, but let\'s focus on organizations for the sake of this article. There are various types of organizations: Fraternities, Sororities, and Academic to name a few. Joining one could help you with time management skills, because rarely in life is there one thing that you focus on, usually it\'s a lot of things. Balancing your time between academics and extracurriculars can greatly prepare you from the pressures of real life. It also teaches you proper interaction with other people. There is no scenario in the workplace where you are all alone. Sooner or later you will interact with people: bosses, clients, co-workers, etc.. These benefits are just the tip of the iceberg, listing them all won\'t fit in this survival guide.\n\n\t\tThe only con here is your academics MAY suffer, but it will only suffer if you let it. It\'s never an organization\'s fault. The consequences in your life are determined by YOUR decisions. If you want to graduate with excellence in only academics, by all means focus all your energy to it. But if you want to graduate realizing your full potential, go join an organization.</mutableString>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="A1X-R5-Ya9" firstAttribute="centerX" secondItem="6Ih-qv-hCq" secondAttribute="centerX" id="0oP-sp-W9G"/>
+                                            <constraint firstItem="A1X-R5-Ya9" firstAttribute="top" secondItem="6Ih-qv-hCq" secondAttribute="top" constant="50" id="DoR-U9-hPQ"/>
+                                            <constraint firstItem="A1X-R5-Ya9" firstAttribute="centerX" secondItem="6Ih-qv-hCq" secondAttribute="centerX" id="RFr-ge-ezt"/>
+                                            <constraint firstAttribute="height" constant="600" id="blm-y7-JqV"/>
+                                            <constraint firstItem="anJ-Ad-Y5E" firstAttribute="centerX" secondItem="6Ih-qv-hCq" secondAttribute="centerX" id="imc-P9-xwF"/>
+                                            <constraint firstItem="A1X-R5-Ya9" firstAttribute="centerX" secondItem="6Ih-qv-hCq" secondAttribute="centerX" id="jE1-UK-Vrt"/>
+                                            <constraint firstItem="anJ-Ad-Y5E" firstAttribute="top" secondItem="A1X-R5-Ya9" secondAttribute="bottom" constant="30" id="jeA-bT-eYh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="6Ih-qv-hCq" secondAttribute="trailing" id="88N-Ey-sSG"/>
+                                    <constraint firstItem="6Ih-qv-hCq" firstAttribute="top" secondItem="CS9-ks-H5F" secondAttribute="top" id="akE-SJ-PIt"/>
+                                    <constraint firstAttribute="bottom" secondItem="6Ih-qv-hCq" secondAttribute="bottom" id="jtB-TB-jDE"/>
+                                    <constraint firstItem="6Ih-qv-hCq" firstAttribute="leading" secondItem="CS9-ks-H5F" secondAttribute="leading" id="xQX-4x-oxy"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="CS9-ks-H5F" firstAttribute="trailing" secondItem="11P-R2-eja" secondAttribute="trailing" id="D4d-yT-u9K"/>
+                            <constraint firstItem="CS9-ks-H5F" firstAttribute="top" secondItem="11P-R2-eja" secondAttribute="top" id="ZAI-ty-OKP"/>
+                            <constraint firstItem="6Ih-qv-hCq" firstAttribute="width" secondItem="Rie-Ju-INJ" secondAttribute="width" id="lGa-NX-Rs7"/>
+                            <constraint firstAttribute="bottom" secondItem="CS9-ks-H5F" secondAttribute="bottom" id="s90-dH-Wc4"/>
+                            <constraint firstItem="CS9-ks-H5F" firstAttribute="leading" secondItem="11P-R2-eja" secondAttribute="leading" id="zpk-2M-fEC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="11P-R2-eja"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Srj-m2-qVl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4777" y="666"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4CC-yA-Z0E">
+            <objects>
+                <viewController id="1WL-cP-BAM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zrn-3F-3tB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nt0-uO-nVk">
+                                <rect key="frame" x="0.0" y="44" width="414" height="556"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cJA-j8-oyx" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hGI-o2-v38">
+                                                <rect key="frame" x="18" y="0.0" width="31" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Exit">
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXV-DV-Fdd" kind="show" id="PwE-i6-lbu"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T85-2o-l0N">
+                                                <rect key="frame" x="145.66666666666666" y="50" width="122.66666666666666" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="R0a-aB-nFs"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="UPLB FebFair">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.84903254530000005" green="0.59338197579999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="20" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHW-pd-BJI">
+                                                <rect key="frame" x="27" y="130" width="360" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="Mdv-2P-tbO"/>
+                                                    <constraint firstAttribute="height" constant="200" id="Syb-nP-uPd"/>
+                                                </constraints>
+                                                <mutableString key="text">The UPLB Feb Fair is one of the most anticipated events of any Academic Year. The UP Fair in Diliman was an annual protest fair that eventually made its way into UPLB. Since the fair occurs during February, it was since then called the Feb Fair.\n\n\t\tAt the Feb Fair, there will be shopping and food stalls, carnival rides, and live bands. And during the love month, there is nothing much more romantic than going through the stalls holding hands with your significant other. But even if you’re single, you can still go solo and hunt for a SO yourself.\n\n\t\tAll in all, just have a good time and appreciate everything in the Fair. The fair may have lost its original message through time, but we hope that you can keep it mind.\n\n\t\tThe &lt;b&gt;UP Epsilon Chi Fraternity&lt;/b&gt; usually has a booth situated near the Men`’s Dorm or near Baker Hall where we play party games and socialize.</mutableString>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="bHW-pd-BJI" firstAttribute="centerX" secondItem="cJA-j8-oyx" secondAttribute="centerX" id="B0s-QV-cUH"/>
+                                            <constraint firstItem="T85-2o-l0N" firstAttribute="centerX" secondItem="cJA-j8-oyx" secondAttribute="centerX" id="Iqp-Dj-0J6"/>
+                                            <constraint firstItem="bHW-pd-BJI" firstAttribute="top" secondItem="T85-2o-l0N" secondAttribute="bottom" constant="30" id="cIE-18-Hv3"/>
+                                            <constraint firstAttribute="height" constant="600" id="dJA-AQ-4Lt"/>
+                                            <constraint firstItem="T85-2o-l0N" firstAttribute="top" secondItem="cJA-j8-oyx" secondAttribute="top" constant="50" id="kCK-9i-WlE"/>
+                                            <constraint firstItem="T85-2o-l0N" firstAttribute="centerX" secondItem="cJA-j8-oyx" secondAttribute="centerX" id="mRv-4P-jVK"/>
+                                            <constraint firstItem="T85-2o-l0N" firstAttribute="centerX" secondItem="cJA-j8-oyx" secondAttribute="centerX" id="w0O-Zs-ezn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="cJA-j8-oyx" secondAttribute="trailing" id="HTL-IB-NLJ"/>
+                                    <constraint firstItem="cJA-j8-oyx" firstAttribute="top" secondItem="nt0-uO-nVk" secondAttribute="top" id="Zzg-Wn-y3X"/>
+                                    <constraint firstAttribute="bottom" secondItem="cJA-j8-oyx" secondAttribute="bottom" id="qgd-0E-M9t"/>
+                                    <constraint firstItem="cJA-j8-oyx" firstAttribute="leading" secondItem="nt0-uO-nVk" secondAttribute="leading" id="wIY-07-UcX"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="nt0-uO-nVk" firstAttribute="leading" secondItem="M6n-MY-Pf5" secondAttribute="leading" id="1eJ-uh-ec4"/>
+                            <constraint firstItem="nt0-uO-nVk" firstAttribute="trailing" secondItem="M6n-MY-Pf5" secondAttribute="trailing" id="3E3-AK-HLQ"/>
+                            <constraint firstAttribute="bottom" secondItem="nt0-uO-nVk" secondAttribute="bottom" id="U6A-so-zJD"/>
+                            <constraint firstItem="cJA-j8-oyx" firstAttribute="width" secondItem="zrn-3F-3tB" secondAttribute="width" id="qvQ-RD-rFP"/>
+                            <constraint firstItem="nt0-uO-nVk" firstAttribute="top" secondItem="M6n-MY-Pf5" secondAttribute="top" id="seX-h0-rHP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="M6n-MY-Pf5"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dxb-2q-MDG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5464" y="35"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yma-ZM-ESB">
+            <objects>
+                <viewController id="1bl-ti-hN6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qj9-Du-N9l">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Qd-ow-Avb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="556"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dQq-7X-qz0" userLabel="LongView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M2S-E2-sQc">
+                                                <rect key="frame" x="18" y="0.0" width="31" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Exit">
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="AvenirNext-Medium"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXV-DV-Fdd" kind="show" id="Nan-QS-4jJ"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vM-cs-q6C">
+                                                <rect key="frame" x="113.66666666666667" y="50" width="186.66666666666663" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="hwz-rT-Ldb"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Bakasyon Syndrome">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.84903254530000005" green="0.59338197579999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="20" name="AvenirNext-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dno-6Z-lCR">
+                                                <rect key="frame" x="27" y="130" width="360" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="F2t-9O-UrC"/>
+                                                    <constraint firstAttribute="width" constant="360" id="U6l-gx-C8E"/>
+                                                </constraints>
+                                                <mutableString key="text">Post-vacation blues or post-travel depression (PTD) is a type of mood that persons returning home from a long trip (usually a vacation) may experience. A person may suffer from post vacation blues after returning home or to a normal routine from a long vacation, especially if it was a pleasurable one. The longer a trip lasts, the more intense the post vacation blues may be. This is because after the person returns home, they realize how boring and unsatisfactory their normal lifestyle routine is when compared to the activities he or she did while on their holiday/vacation. Post vacation blues may result in tiredness, loss of appetite, strong feelings of nostalgia, and in some cases, depression. In general, post vacation blues will wear off over time. It usually takes a few days, but in extreme cases it can last for several weeks for the mood to fully wear off. Being aware of this event is a very good start.\n\n\t\tFaster ways of treating post-vacation blues is for the person to share their experiences with family and friends. Looking at photos and souvenirs from the vacation can provide a therapeutic effect. Some may find comfort in reliving their holiday/vacation experiences, but don\’t overdo it. Plan or book the next vacation, this offers a distraction and also provides the person something to look forward to. Clean and organize your room before going to vacation. Coming back to a pleasant environment lessens the stress and smooth out the transition from holiday to regular days.\n\n\t\tPost-vacation blues is a reflection of the crest and troughs of human life. There will always be better days. And more often than not, you will not be aware of these better days. You will be caught in the melancholy of the past and the anxiety of the future. These are abstract and quite dangerous states to be in. Good times should always be cherished with the absolute participation of an eternal now. The tradition of working hard on weekdays and trying to unwind on the weekends is a respectable process. But a more profound perspective should be that harder and more stressful days should be enjoyed as much. You must find the joy in working hard, in the tiring process of creating something outside of yourself. You must feel the deep satisfaction of acquiring knowledge and slowly mastering the universe.\n\n\t\tBetter days cannot be enjoyed fully without the harder days. Every high grade is a product of daily thirst for knowledge and sustained motivation. If you do the right thing every day, success is inevitable. You just have to trust the process. Go out and be the best.</mutableString>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="Dno-6Z-lCR" firstAttribute="top" secondItem="2vM-cs-q6C" secondAttribute="bottom" constant="30" id="BGS-2j-cQb"/>
+                                            <constraint firstItem="2vM-cs-q6C" firstAttribute="top" secondItem="dQq-7X-qz0" secondAttribute="top" constant="50" id="GJc-MC-DCE"/>
+                                            <constraint firstItem="2vM-cs-q6C" firstAttribute="centerX" secondItem="dQq-7X-qz0" secondAttribute="centerX" id="Ml2-zm-aNl"/>
+                                            <constraint firstItem="2vM-cs-q6C" firstAttribute="centerX" secondItem="dQq-7X-qz0" secondAttribute="centerX" id="So1-lW-QBp"/>
+                                            <constraint firstAttribute="height" constant="600" id="ofl-bP-fqb"/>
+                                            <constraint firstItem="Dno-6Z-lCR" firstAttribute="centerX" secondItem="dQq-7X-qz0" secondAttribute="centerX" id="wLi-k9-V2A"/>
+                                            <constraint firstItem="2vM-cs-q6C" firstAttribute="centerX" secondItem="dQq-7X-qz0" secondAttribute="centerX" id="yoH-MY-vmg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dQq-7X-qz0" secondAttribute="trailing" id="7bM-YF-ceN"/>
+                                    <constraint firstItem="dQq-7X-qz0" firstAttribute="top" secondItem="0Qd-ow-Avb" secondAttribute="top" id="CCy-Hd-zDU"/>
+                                    <constraint firstItem="dQq-7X-qz0" firstAttribute="leading" secondItem="0Qd-ow-Avb" secondAttribute="leading" id="l7c-0G-lLH"/>
+                                    <constraint firstAttribute="bottom" secondItem="dQq-7X-qz0" secondAttribute="bottom" id="qvd-9H-QQF"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55001214379999996" green="0.2473210908" blue="0.21401937439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="dQq-7X-qz0" firstAttribute="width" secondItem="qj9-Du-N9l" secondAttribute="width" id="6bp-Hr-pTB"/>
+                            <constraint firstItem="0Qd-ow-Avb" firstAttribute="trailing" secondItem="dSn-Gp-u6E" secondAttribute="trailing" id="K8h-HO-l0p"/>
+                            <constraint firstItem="0Qd-ow-Avb" firstAttribute="leading" secondItem="dSn-Gp-u6E" secondAttribute="leading" id="Lew-MR-JIl"/>
+                            <constraint firstItem="0Qd-ow-Avb" firstAttribute="top" secondItem="dSn-Gp-u6E" secondAttribute="top" id="UzA-YB-hak"/>
+                            <constraint firstAttribute="bottom" secondItem="0Qd-ow-Avb" secondAttribute="bottom" id="b8L-IU-Ywl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dSn-Gp-u6E"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dfO-1D-yfP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5464" y="475"/>
         </scene>
     </scenes>
     <resources>
@@ -4209,6 +5161,7 @@
         <image name="uplb_logo" width="300" height="272"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="7Ke-mo-GcI"/>
         <segue reference="CIy-1X-T9T"/>
         <segue reference="fu1-gy-LTk"/>
     </inferredMetricsTieBreakers>
