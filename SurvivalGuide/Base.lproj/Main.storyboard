@@ -358,7 +358,7 @@
                                             <constraint firstItem="4CX-MS-4PC" firstAttribute="leading" relation="lessThanOrEqual" secondItem="BjB-Jy-DAZ" secondAttribute="trailing" constant="47" id="19t-Rk-cfJ"/>
                                             <constraint firstItem="WvH-FA-igl" firstAttribute="top" secondItem="6Jd-LF-1k4" secondAttribute="bottom" constant="10" id="2P9-QQ-qiA"/>
                                             <constraint firstItem="L4e-aw-Mey" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="4YZ-AX-eRF"/>
-                                            <constraint firstAttribute="trailing" secondItem="L4e-aw-Mey" secondAttribute="trailing" constant="20" id="5bM-hB-5vM"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="L4e-aw-Mey" secondAttribute="trailing" constant="20" id="5bM-hB-5vM"/>
                                             <constraint firstItem="4CX-MS-4PC" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="DxV-4g-Zgl"/>
                                             <constraint firstItem="saP-bR-QNc" firstAttribute="top" secondItem="1oO-KI-44G" secondAttribute="bottom" constant="10" id="FvF-Qy-Cxt"/>
                                             <constraint firstAttribute="trailing" secondItem="saP-bR-QNc" secondAttribute="trailing" constant="101" id="GkF-xE-whj"/>
@@ -369,7 +369,7 @@
                                             <constraint firstItem="38f-XC-MVn" firstAttribute="top" secondItem="WvH-FA-igl" secondAttribute="bottom" constant="10" id="LKk-fA-IQZ"/>
                                             <constraint firstItem="WvH-FA-igl" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="Ljc-c0-vhe"/>
                                             <constraint firstAttribute="trailing" secondItem="1oO-KI-44G" secondAttribute="trailing" constant="20" id="NKG-zp-yvV"/>
-                                            <constraint firstItem="38f-XC-MVn" firstAttribute="leading" secondItem="mvx-FG-Jfn" secondAttribute="leading" constant="20" id="NWI-yZ-TZ1"/>
+                                            <constraint firstItem="38f-XC-MVn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mvx-FG-Jfn" secondAttribute="leading" constant="20" id="NWI-yZ-TZ1"/>
                                             <constraint firstItem="38f-XC-MVn" firstAttribute="centerX" secondItem="mvx-FG-Jfn" secondAttribute="centerX" id="VTj-bi-sj0"/>
                                             <constraint firstAttribute="trailing" secondItem="WvH-FA-igl" secondAttribute="trailing" constant="57" id="VrO-hz-VdS"/>
                                             <constraint firstItem="L4e-aw-Mey" firstAttribute="top" secondItem="Hnn-it-cd2" secondAttribute="bottom" id="W1W-eF-7M2"/>
@@ -1931,7 +1931,7 @@
                                             <constraint firstItem="9aE-ej-hng" firstAttribute="centerX" secondItem="qM3-b4-XW6" secondAttribute="centerX" id="1fI-Ve-FdL"/>
                                             <constraint firstItem="WNo-zB-Mij" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qM3-b4-XW6" secondAttribute="leading" constant="27" id="1kt-w7-E9h"/>
                                             <constraint firstAttribute="trailing" secondItem="nQl-3b-DA4" secondAttribute="trailing" constant="27" id="217-Og-h7e"/>
-                                            <constraint firstItem="LDk-SC-2sP" firstAttribute="leading" secondItem="WHY-4s-p1L" secondAttribute="trailing" constant="44.329999999999998" id="25Q-7W-QJQ"/>
+                                            <constraint firstItem="LDk-SC-2sP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WHY-4s-p1L" secondAttribute="trailing" constant="44.329999999999998" id="25Q-7W-QJQ"/>
                                             <constraint firstItem="zl7-VU-EY5" firstAttribute="leading" secondItem="qM3-b4-XW6" secondAttribute="leading" constant="27" id="2LN-Ii-MGi"/>
                                             <constraint firstItem="M8A-oI-c0T" firstAttribute="centerX" secondItem="qM3-b4-XW6" secondAttribute="centerX" id="2Yl-Hl-yUm"/>
                                             <constraint firstAttribute="trailing" secondItem="llu-8K-y6C" secondAttribute="trailing" constant="27" id="2h2-Uw-Gpz"/>
@@ -2471,7 +2471,7 @@
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="faT-iK-bp0" secondAttribute="trailing" constant="33" id="Wdp-nU-lnf"/>
                                             <constraint firstItem="mBt-Nu-TVD" firstAttribute="top" secondItem="Stm-XT-xpc" secondAttribute="bottom" constant="21" id="Zye-zy-1Ut"/>
                                             <constraint firstItem="5VD-x2-xGb" firstAttribute="top" secondItem="7Tt-lf-mwF" secondAttribute="top" constant="40" id="gYf-yX-OgM"/>
-                                            <constraint firstItem="Stm-XT-xpc" firstAttribute="leading" secondItem="5VD-x2-xGb" secondAttribute="trailing" constant="17" id="jbF-ny-c5b"/>
+                                            <constraint firstItem="Stm-XT-xpc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5VD-x2-xGb" secondAttribute="trailing" constant="17" id="jbF-ny-c5b"/>
                                             <constraint firstAttribute="trailing" secondItem="Stm-XT-xpc" secondAttribute="trailing" constant="77" id="p9x-3B-Fye"/>
                                             <constraint firstItem="faT-iK-bp0" firstAttribute="centerY" secondItem="7Tt-lf-mwF" secondAttribute="centerY" id="rZ2-50-DDA"/>
                                             <constraint firstItem="faT-iK-bp0" firstAttribute="top" secondItem="mBt-Nu-TVD" secondAttribute="bottom" constant="20" id="x3V-Pw-gim"/>
@@ -2638,7 +2638,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YVB-pS-C9X">
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="4sU-wZ-iKR"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="4sU-wZ-iKR"/>
                                                     <constraint firstAttribute="height" constant="50" id="FGf-NK-t3z"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
@@ -2737,7 +2737,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RR-ZY-1rc">
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="RdR-KS-MQo"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="RdR-KS-MQo"/>
                                                     <constraint firstAttribute="height" constant="50" id="lIa-ES-hbS"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
@@ -2745,46 +2745,7 @@
                                                         <attributes>
                                                             <color key="NSColor" red="0.84902999999999995" green="0.59338000000000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <font key="NSFont" size="20" name="AvenirNext-Medium"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                                <tabStops>
-                                                                    <textTab alignment="left" location="28">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="left" location="56">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="left" location="84">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="left" location="112">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="left" location="140">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="left" location="168">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="left" location="196">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="left" location="224">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="left" location="252">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="left" location="280">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="left" location="308">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="left" location="336">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                </tabStops>
-                                                            </paragraphStyle>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
@@ -2873,7 +2834,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40o-cs-apn">
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="NNp-B7-azt"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="NNp-B7-azt"/>
                                                     <constraint firstAttribute="height" constant="50" id="fOE-FE-yL0"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
@@ -2970,7 +2931,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Azh-Lo-NsE">
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="Vp6-g7-5Ka"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="Vp6-g7-5Ka"/>
                                                     <constraint firstAttribute="height" constant="50" id="lNc-a1-x1z"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
@@ -3068,7 +3029,7 @@
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="8DO-zX-M1f"/>
-                                                    <constraint firstAttribute="width" constant="300" id="len-Il-VWB"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="len-Il-VWB"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment content="What subject must I pass?">
@@ -3164,7 +3125,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CdW-HR-U8C">
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="Jgd-5P-rIg"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="Jgd-5P-rIg"/>
                                                     <constraint firstAttribute="height" constant="50" id="amf-Hn-LEW"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
@@ -3261,7 +3222,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPd-0t-NGX">
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="A3L-WT-aka"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="A3L-WT-aka"/>
                                                     <constraint firstAttribute="height" constant="50" id="o73-q3-w7x"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
@@ -3358,7 +3319,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfI-OD-ntu">
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="7lF-q4-hv9"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="7lF-q4-hv9"/>
                                                     <constraint firstAttribute="height" constant="50" id="elL-4W-781"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
@@ -3456,7 +3417,7 @@
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="1tx-BJ-aON"/>
-                                                    <constraint firstAttribute="width" constant="300" id="pOQ-Q0-3LB"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="pOQ-Q0-3LB"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Overload Units?">
@@ -3552,7 +3513,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAT-JT-eSe">
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="W2N-E8-0RI"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="W2N-E8-0RI"/>
                                                     <constraint firstAttribute="height" constant="50" id="qqY-t1-ywJ"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
@@ -3649,7 +3610,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXG-LV-ZY2">
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="NEs-f9-DNU"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="NEs-f9-DNU"/>
                                                     <constraint firstAttribute="height" constant="50" id="SK0-nk-Heh"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
@@ -3747,7 +3708,7 @@
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="0Ur-P3-NWx"/>
-                                                    <constraint firstAttribute="width" constant="300" id="6rf-j6-yrD"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="6rf-j6-yrD"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Does UPLB kick out students?">
@@ -3843,7 +3804,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dI-tn-nO2">
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="jdu-VE-8I7"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="jdu-VE-8I7"/>
                                                     <constraint firstAttribute="height" constant="50" id="qJd-xh-yQu"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
@@ -3940,7 +3901,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGH-zd-rMS">
                                                 <rect key="frame" x="57" y="50" width="300" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="1cy-hk-0xL"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="1cy-hk-0xL"/>
                                                     <constraint firstAttribute="height" constant="50" id="aq9-ZP-p18"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
@@ -5534,7 +5495,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0N-Pz-vpd">
                                                 <rect key="frame" x="95" y="40" width="224" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="224" id="JeB-Rt-c4X"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="224" id="JeB-Rt-c4X"/>
                                                     <constraint firstAttribute="height" constant="50" id="Oj0-lx-Ide"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
@@ -5754,8 +5715,8 @@
         <image name="uplb_logo" width="300" height="272"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4op-Xh-0yt"/>
-        <segue reference="CIy-1X-T9T"/>
-        <segue reference="fu1-gy-LTk"/>
+        <segue reference="FtE-ZH-aAq"/>
+        <segue reference="QsB-XE-4YU"/>
+        <segue reference="tta-R8-jZ3"/>
     </inferredMetricsTieBreakers>
 </document>

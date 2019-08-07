@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6887EFA622D2308000B8B536 /* SurvivalGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurvivalGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6887EFA622D2308000B8B536 /* UP Freshman Survival Guide 2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UP Freshman Survival Guide 2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6887EFA922D2308000B8B536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6887EFAB22D2308000B8B536 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6887EFAE22D2308000B8B536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6887EFB022D2308200B8B536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6887EFB322D2308200B8B536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6887EFB522D2308200B8B536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6887EFBA22D2308300B8B536 /* SurvivalGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurvivalGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6887EFBA22D2308300B8B536 /* UP Freshman Survival Guide 2019Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UP Freshman Survival Guide 2019Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6887EFBE22D2308300B8B536 /* SurvivalGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvivalGuideTests.swift; sourceTree = "<group>"; };
 		6887EFC022D2308300B8B536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6887EFC522D2308300B8B536 /* SurvivalGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurvivalGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6887EFC522D2308300B8B536 /* UP Freshman Survival Guide 2019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UP Freshman Survival Guide 2019UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6887EFC922D2308300B8B536 /* SurvivalGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvivalGuideUITests.swift; sourceTree = "<group>"; };
 		6887EFCB22D2308300B8B536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		6887EFA722D2308000B8B536 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6887EFA622D2308000B8B536 /* SurvivalGuide.app */,
-				6887EFBA22D2308300B8B536 /* SurvivalGuideTests.xctest */,
-				6887EFC522D2308300B8B536 /* SurvivalGuideUITests.xctest */,
+				6887EFA622D2308000B8B536 /* UP Freshman Survival Guide 2019.app */,
+				6887EFBA22D2308300B8B536 /* UP Freshman Survival Guide 2019Tests.xctest */,
+				6887EFC522D2308300B8B536 /* UP Freshman Survival Guide 2019UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6887EFA522D2308000B8B536 /* SurvivalGuide */ = {
+		6887EFA522D2308000B8B536 /* UP Freshman Survival Guide 2019 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6887EFCE22D2308300B8B536 /* Build configuration list for PBXNativeTarget "SurvivalGuide" */;
+			buildConfigurationList = 6887EFCE22D2308300B8B536 /* Build configuration list for PBXNativeTarget "UP Freshman Survival Guide 2019" */;
 			buildPhases = (
 				6887EFA222D2308000B8B536 /* Sources */,
 				6887EFA322D2308000B8B536 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = SurvivalGuide;
+			name = "UP Freshman Survival Guide 2019";
 			productName = SurvivalGuide;
-			productReference = 6887EFA622D2308000B8B536 /* SurvivalGuide.app */;
+			productReference = 6887EFA622D2308000B8B536 /* UP Freshman Survival Guide 2019.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6887EFB922D2308300B8B536 /* SurvivalGuideTests */ = {
+		6887EFB922D2308300B8B536 /* UP Freshman Survival Guide 2019Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6887EFD122D2308300B8B536 /* Build configuration list for PBXNativeTarget "SurvivalGuideTests" */;
+			buildConfigurationList = 6887EFD122D2308300B8B536 /* Build configuration list for PBXNativeTarget "UP Freshman Survival Guide 2019Tests" */;
 			buildPhases = (
 				6887EFB622D2308300B8B536 /* Sources */,
 				6887EFB722D2308300B8B536 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				6887EFBC22D2308300B8B536 /* PBXTargetDependency */,
 			);
-			name = SurvivalGuideTests;
+			name = "UP Freshman Survival Guide 2019Tests";
 			productName = SurvivalGuideTests;
-			productReference = 6887EFBA22D2308300B8B536 /* SurvivalGuideTests.xctest */;
+			productReference = 6887EFBA22D2308300B8B536 /* UP Freshman Survival Guide 2019Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6887EFC422D2308300B8B536 /* SurvivalGuideUITests */ = {
+		6887EFC422D2308300B8B536 /* UP Freshman Survival Guide 2019UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6887EFD422D2308300B8B536 /* Build configuration list for PBXNativeTarget "SurvivalGuideUITests" */;
+			buildConfigurationList = 6887EFD422D2308300B8B536 /* Build configuration list for PBXNativeTarget "UP Freshman Survival Guide 2019UITests" */;
 			buildPhases = (
 				6887EFC122D2308300B8B536 /* Sources */,
 				6887EFC222D2308300B8B536 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				6887EFC722D2308300B8B536 /* PBXTargetDependency */,
 			);
-			name = SurvivalGuideUITests;
+			name = "UP Freshman Survival Guide 2019UITests";
 			productName = SurvivalGuideUITests;
-			productReference = 6887EFC522D2308300B8B536 /* SurvivalGuideUITests.xctest */;
+			productReference = 6887EFC522D2308300B8B536 /* UP Freshman Survival Guide 2019UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6887EFA122D2308000B8B536 /* Build configuration list for PBXProject "SurvivalGuide" */;
+			buildConfigurationList = 6887EFA122D2308000B8B536 /* Build configuration list for PBXProject "UP Freshman Survival Guide 2019" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6887EFA522D2308000B8B536 /* SurvivalGuide */,
-				6887EFB922D2308300B8B536 /* SurvivalGuideTests */,
-				6887EFC422D2308300B8B536 /* SurvivalGuideUITests */,
+				6887EFA522D2308000B8B536 /* UP Freshman Survival Guide 2019 */,
+				6887EFB922D2308300B8B536 /* UP Freshman Survival Guide 2019Tests */,
+				6887EFC422D2308300B8B536 /* UP Freshman Survival Guide 2019UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		6887EFBC22D2308300B8B536 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6887EFA522D2308000B8B536 /* SurvivalGuide */;
+			target = 6887EFA522D2308000B8B536 /* UP Freshman Survival Guide 2019 */;
 			targetProxy = 6887EFBB22D2308300B8B536 /* PBXContainerItemProxy */;
 		};
 		6887EFC722D2308300B8B536 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6887EFA522D2308000B8B536 /* SurvivalGuide */;
+			target = 6887EFA522D2308000B8B536 /* UP Freshman Survival Guide 2019 */;
 			targetProxy = 6887EFC622D2308300B8B536 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,7 +481,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurvivalGuide.app/SurvivalGuide";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UP Freshman Survival Guide 2019.app/UP Freshman Survival Guide 2019";
 			};
 			name = Debug;
 		};
@@ -502,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurvivalGuide.app/SurvivalGuide";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UP Freshman Survival Guide 2019.app/UP Freshman Survival Guide 2019";
 			};
 			name = Release;
 		};
@@ -549,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6887EFA122D2308000B8B536 /* Build configuration list for PBXProject "SurvivalGuide" */ = {
+		6887EFA122D2308000B8B536 /* Build configuration list for PBXProject "UP Freshman Survival Guide 2019" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6887EFCC22D2308300B8B536 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6887EFCE22D2308300B8B536 /* Build configuration list for PBXNativeTarget "SurvivalGuide" */ = {
+		6887EFCE22D2308300B8B536 /* Build configuration list for PBXNativeTarget "UP Freshman Survival Guide 2019" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6887EFCF22D2308300B8B536 /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6887EFD122D2308300B8B536 /* Build configuration list for PBXNativeTarget "SurvivalGuideTests" */ = {
+		6887EFD122D2308300B8B536 /* Build configuration list for PBXNativeTarget "UP Freshman Survival Guide 2019Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6887EFD222D2308300B8B536 /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6887EFD422D2308300B8B536 /* Build configuration list for PBXNativeTarget "SurvivalGuideUITests" */ = {
+		6887EFD422D2308300B8B536 /* Build configuration list for PBXNativeTarget "UP Freshman Survival Guide 2019UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6887EFD522D2308300B8B536 /* Debug */,
